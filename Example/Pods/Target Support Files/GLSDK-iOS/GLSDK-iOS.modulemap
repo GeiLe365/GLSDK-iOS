@@ -1,0 +1,6 @@
+framework module GLSDK_iOS {
+  umbrella header "GLSDK-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

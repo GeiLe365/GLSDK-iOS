@@ -1,0 +1,61 @@
+{
+  "name": "GLSDK-iOS",
+  "version": "1.0",
+  "summary": "A short description of GLSDK-iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/GeiLe365/GLSDK-iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dfs930@365gl.com": "dfs930@365gl.com"
+  },
+  "source": {
+    "git": "https://github.com/GeiLe365/GLSDK-iOS.git",
+    "tag": "1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "source_files": "GLSDK-iOS/Classes/**/*",
+  "vendored_frameworks": "GLSDK-iOS/Classes/*.framework",
+  "frameworks": [
+    "CoreLocation",
+    "CoreTelephony",
+    "OpenGLES",
+    "QuartzCore",
+    "Security",
+    "SystemConfiguration",
+    "Accelerate",
+    "CoreGraphics",
+    "Foundation"
+  ],
+  "dependencies": {
+    "UMCShare/UI": [
+
+    ],
+    "UMCShare/Social/WeChat": [
+
+    ],
+    "UMCShare/Social/QQ": [
+
+    ],
+    "UMCShare/Social/SMS": [
+
+    ],
+    "Reachability": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "WebViewJavascriptBridge": [
+
+    ],
+    "BaiduMapKit": [
+
+    ]
+  }
+}

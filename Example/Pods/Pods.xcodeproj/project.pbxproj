@@ -1,0 +1,2537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		08797F46251C64100F721EEF64AAD344 /* UMCShare */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 30141D78B6ED066BFF9DDC0ED966B442 /* Build configuration list for PBXAggregateTarget "UMCShare" */;
+			buildPhases = (
+			);
+			dependencies = (
+				2FD868B2CBB7193B0A7627FFBB0CEB7A /* PBXTargetDependency */,
+			);
+			name = UMCShare;
+		};
+		2A98134A70001D88F2E8B45132A3E45D /* BaiduMapKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5577AA72BAC6F7DE95AF6FF653D2388C /* Build configuration list for PBXAggregateTarget "BaiduMapKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BaiduMapKit;
+		};
+		6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 393E29D0AD522EB43DE908BDEA0495DA /* Build configuration list for PBXAggregateTarget "UMCCommon" */;
+			buildPhases = (
+			);
+			dependencies = (
+				CB00877B798A43C42A6B8518BC9E4CF6 /* PBXTargetDependency */,
+				A5610FC7F425D5617CD0BA030F4DCA4B /* PBXTargetDependency */,
+			);
+			name = UMCCommon;
+		};
+		CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 865D13DB6773D75A2DA6CCC11CA86C22 /* Build configuration list for PBXAggregateTarget "UMDevice" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UMDevice;
+		};
+		F1E09035B7675D89EC69B16728E2833E /* UMAPM */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FE14844FCEB5A6DDB8D3BB3BC55FEE08 /* Build configuration list for PBXAggregateTarget "UMAPM" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UMAPM;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04CCDC521938FEC42BCD6E316DD878BA /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1D17C47B474E05B0559031E433CEEA /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0643D4CA642D6E321A078E8A7B78F753 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D351D66BFB1298A341D3692B949528 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C156230A37497D4462470D31E523477 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = F2CA50E4CB632FCEF175EFD6A66D9A43 /* Info.plist */; };
+		0DA1AD87BF7E90A928FE23852FBE52B1 /* GLWXApiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79EF3D3C1C60EB278C6E39600D545EAB /* GLWXApiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11EF804F9BCFBD3B76DA49CDDC39D1DF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADFF0C758743130FB8B64CD97FB4519 /* MASConstraintMaker.m */; };
+		136E037214A739D80C31BBC86675D3C6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE7CC5BA30C4E58D5E700F7DF0A6B3B /* SystemConfiguration.framework */; };
+		153684C9360E6EC7975558B7131E0D4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DE16F1700460ED62B2522F63F358EB /* UIKit.framework */; };
+		19A929AFD758C6E5C4AD14D6E3A17F0D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8119D1F3FB1181D69A646E55C10704 /* MASLayoutConstraint.m */; };
+		1A4698CE792517FEC94CBFB7AAD45F61 /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 5355FF74CD4794F7210516497F646D64 /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC50F4FA0A10686E31035AB0D90CB10 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229BB30BFAAEA40662596B0BAFB337B /* MASCompositeConstraint.m */; };
+		20D9ABC02390926E498CDC04A9C34F8F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EEF4EFC4FE6CC5A2777F54C61A13BF9 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		230B36640DE5CDDEBD87BA24742A860B /* CodeRequirements-1 in Sources */ = {isa = PBXBuildFile; fileRef = EF0285DAB265144B686251FED077FB62 /* CodeRequirements-1 */; };
+		23CF6C63E9BF8D21D77A7F6C324CC5F9 /* CodeSignature in Sources */ = {isa = PBXBuildFile; fileRef = F3E76DA02144907320A80273D5F2FA68 /* CodeSignature */; };
+		27C7E1F98F64BD430620832ACB8626CC /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3AE4774BBE8F22E861C4A4F8896473 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8BBB37DAED47126378915E7B8E2DDB /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9A805A295312BD7E296EEFEF03D27B /* WebViewJavascriptBridge-dummy.m */; };
+		2DB738E1151869B33A0568B63AE14E69 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0C3C09E1890F9F981D04283CCF3944 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E3AD471DC40A6654A0DE1F4FF7C0CDB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0F906C44AE40CBB6728901231CB387 /* MASViewConstraint.m */; };
+		3464380DFCE373549DB30BFA6477D806 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 27CC1F2AE008895F3F83DE4A2EF447D6 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35206F0389266C0E4AFDF0C684EFFFF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B923B357E03FE42762559777E4BFCE9 /* Foundation.framework */; };
+		35B34ED7808E05697AD417A451D22B5E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A667791ABB71E8B2E87CAE9F5AC3F8 /* Masonry-dummy.m */; };
+		3A52BB3CBA25451C1D0F34C199101172 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B923B357E03FE42762559777E4BFCE9 /* Foundation.framework */; };
+		3A76E1B7E796C2EC238A3D470C40D97B /* GLSDK-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 882FFE1C8185C704D2018DE3C893D1B9 /* GLSDK-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		403D3BE4EC85A2395F18F4DE9C390BE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B923B357E03FE42762559777E4BFCE9 /* Foundation.framework */; };
+		43B5791E412D136E4D2B5450F6A5AEC1 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 852FDADA219DB552302F269A162CDB11 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FFF8626350A4AAA5F37F2E5F142848 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F96B763DA225D55EC4C16CFE428A7E4 /* MASViewAttribute.m */; };
+		46E80D95E504C3026DED108730123E05 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AE140AC20620940AC7BE3B00FDB2A4 /* MASConstraint.m */; };
+		4922B2BBCA538CF099B113130B4C5489 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B923B357E03FE42762559777E4BFCE9 /* Foundation.framework */; };
+		4A1FEE48DB23369793250EB5321077A7 /* GLSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E2683937BA980626BED1899496B1B276 /* GLSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D916B3222F5CCF365504F528802D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B923B357E03FE42762559777E4BFCE9 /* Foundation.framework */; };
+		578ECAE72FD789FFB6F5FB5117511BB6 /* Pods-GLSDK-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B711833E18974E6EBA9114A00D91C7E8 /* Pods-GLSDK-iOS_Example-dummy.m */; };
+		5987A3901CCD261D97C7D55F81E19FD1 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B91893B5F779B65A90AAAB41EC0B989 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59B4C6C645F34307523037A8E197A55F /* GLToastHudView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3BD8A0DEE94E5445CE190B2524A3AB /* GLToastHudView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FDACBCA6B964FEA05C3F19B23EC3681 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 622C6C7763B895C7264143D781807657 /* ViewController+MASAdditions.m */; };
+		602E04AF154D2FDEBDCBCB305DA4AE01 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90466285201B0AF99C6F92C76B23234 /* WebKit.framework */; };
+		6195843E4A300C69F94B6488BDD23E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B923B357E03FE42762559777E4BFCE9 /* Foundation.framework */; };
+		6E0427B3F4B805804961A672916933A8 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 602A4F72D0466CE81939A553B797E0C7 /* Reachability-dummy.m */; };
+		7081E21AA3691E3F8169126B1AD537A4 /* CodeRequirements in Sources */ = {isa = PBXBuildFile; fileRef = E110F5A5C8660D7BAE80037E642B2558 /* CodeRequirements */; };
+		721322A3D3FDE06113A492EC31BF9B81 /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7950DFE9DC816D2BDB015539BB627ED4 /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74CF581D679A8F8DA1809E18601099A7 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E69C3FEC19D2AD629E217A888A4B0 /* WebViewJavascriptBridgeBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		750D0B5FCD6F7DA42E34D32965D7997B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DE16F1700460ED62B2522F63F358EB /* UIKit.framework */; };
+		769F0D2F2769BC38A93790333144DA58 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5428BBC7361E0C641EE4F65824172F /* NSArray+MASAdditions.m */; };
+		77866FA8223BDA21CD1299848FB3FF1B /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 104AA752D1B40EF12652C9C4D41DD4B9 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C65F9DC9A75B119977E5CFBDE2E2B9C /* Pods-GLSDK-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A833D265A337DEDF4EFA0E024873772E /* Pods-GLSDK-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7A46105BCDA5BB287B9A86D3395FB4 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E64E808E1428C9BE761C534ED6480B /* View+MASAdditions.m */; };
+		85EE9BD581FBE7D87C7A886A6AFC00CA /* CodeDirectory in Sources */ = {isa = PBXBuildFile; fileRef = 07A3226261EED3526799E110AC79A2DB /* CodeDirectory */; };
+		8607F46AA4FC6B7BAF8BDA75BBCA9977 /* GLSDK-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E1F91E308241C4157095FA53215BDF /* GLSDK-iOS-dummy.m */; };
+		8DAC075AB86C082CFD06768F0CDF4313 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0D4B6AB5278255BEFEBCF2B099AC9C /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		988A74CBB329DFBBCCD5602D41DBF9FB /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = DE69723E4928F5E91CFC180E9F073101 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B29E32C966AD8184B8AA5662BB3C423 /* CodeResources in Sources */ = {isa = PBXBuildFile; fileRef = DB3988C654B5E61AF319104461CF6CC5 /* CodeResources */; };
+		9FBE6888288BD1A3FF4DA09DC5B6DD3F /* Pods-GLSDK-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0879ED529D77C112FD6321E7B2861156 /* Pods-GLSDK-iOS_Tests-dummy.m */; };
+		9FED7858F793CF1B42ACC3AEAEB61040 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C08512139541B53260F285A60B8F033F /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A66A09D637A6113E00EBE2853DD1EFF1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 442B29ECD48495D672DB49A1A18F0DF9 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		ABD6C4249D638BD7268CE69A68BD78E3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F0385555316C93340889578318C34E5F /* Reachability.m */; };
+		B4A5079C14D553921C4945E6666A7190 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B878E74620F99A37175BE53EF07E62 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91F7508DBC6E3BAD49136ADECBBF227 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 26780A224D1E5E2A9800A75869C2CFA8 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D837B9B99CAB5731ACA3B4BB2FC8AE /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 860A8783C8082FED15886C2594F4CF39 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCB58B83B5EB845AE4092FAD972900CA /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD7B4B4259FA04BF85B32B0C52D9727 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB658B8BCBB224EA4617FEC92B8FCA1 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7E88D62B7AF5F554E327895C66844C /* WKWebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCB3AA28C4DD5A34A0F11BB4623E9ECD /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 85BAB1C83BD7BB4EC13E790244E1BD4A /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDBF0A9616DDA701B22B8EA5C8171C29 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F178E550151F91BEA723BD2942D6A1 /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D01F609E7F0321249A9B5C194ADA3E64 /* Pods-GLSDK-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5BA742B5F1A89548A8FD1DCBABCD879 /* Pods-GLSDK-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68F6C777388BE5BAE81C7FA38F5A2E0 /* WebViewJavascriptBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 884756BAD049221F4443D4962479CAEC /* WebViewJavascriptBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7EE6629822BD28AFF4D27145A4C1093 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DBD52A05823DB76F88C78F666C6EFC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA3926415FBCBD0DD93EB31DE87DDD1A /* GLManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C197B67F0E95ACD3ABC2403372CEA69 /* GLManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA9689AB488D80C39820AB0CD8AE775 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A771EF7843E04D831508A2FA9ADB14D /* WebViewJavascriptBridge_JS.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E0B7615BC78F3BECD3624CFCA1FEE42A /* GLSDK in Sources */ = {isa = PBXBuildFile; fileRef = 24B6855057FDFFD26B16A5B8E1620E0A /* GLSDK */; };
+		EFD7DBCF33C1282E6764CA66138C2E70 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF5588CF116480F329ADC983AF2D23F /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F7780C10C1BDB3280608B081BFF61457 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 9338F215FB347271FFCE084C550E964E /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF33C32289195FE982E5988CD3C81EBE /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 03FE7DF4948FBD5DA01FCD5760B2C5F3 /* module.modulemap */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01D0C0EE609FC2076232C418E316CD9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E09035B7675D89EC69B16728E2833E;
+			remoteInfo = UMAPM;
+		};
+		14DB47B0FCB330C01A1E6C738628F333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6B630FA5213AB083E7CEF1F986FE44;
+			remoteInfo = UMCCommon;
+		};
+		19DDDF303DF714A0153B4D35B014CFDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08797F46251C64100F721EEF64AAD344;
+			remoteInfo = UMCShare;
+		};
+		1C4B636F6114FF4F63233E26F048091A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E09035B7675D89EC69B16728E2833E;
+			remoteInfo = UMAPM;
+		};
+		2A60F45418556AA024031C90E8EA00F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB9AD2C3CFC208BFBE1F22F5EC3E1FC;
+			remoteInfo = UMDevice;
+		};
+		30636EEAA737A7B5EE028C511614EEF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08797F46251C64100F721EEF64AAD344;
+			remoteInfo = UMCShare;
+		};
+		385D9C21E4064E14A40ADBAC83A7B127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A98134A70001D88F2E8B45132A3E45D;
+			remoteInfo = BaiduMapKit;
+		};
+		397B35574C7B45E43E4E4C2DFF1A59C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6B630FA5213AB083E7CEF1F986FE44;
+			remoteInfo = UMCCommon;
+		};
+		456D0ABC16B5FEEC10024D790B8C29E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E65EF71627B38904C179ED1908049731;
+			remoteInfo = "GLSDK-iOS";
+		};
+		6865F44731EB16D7DDBBF463AC7A8836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A98134A70001D88F2E8B45132A3E45D;
+			remoteInfo = BaiduMapKit;
+		};
+		6A9B70F0D1F7BE3B3BE36A15A2B0CC0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB9AD2C3CFC208BFBE1F22F5EC3E1FC;
+			remoteInfo = UMDevice;
+		};
+		A729542B10E7ACAE40A14121A000AF26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA047C0F5E4106F3904E8497FA17F97;
+			remoteInfo = Reachability;
+		};
+		B23B37BDDA8BB81F19B6DB4CD40D2C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6EE36F386DBFD58A8A5B22D65791ABB;
+			remoteInfo = WebViewJavascriptBridge;
+		};
+		BE820CCA757250FFCE2E9FDA811BE7E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		BF9F1A46E2D3C3040622F34830000A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B07C700742A74487744E19C2BBA62B;
+			remoteInfo = "Pods-GLSDK-iOS_Example";
+		};
+		C3266571A387A81E9AF1392FE402A7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6EE36F386DBFD58A8A5B22D65791ABB;
+			remoteInfo = WebViewJavascriptBridge;
+		};
+		F444A5734AD0ACD5D7461B872B92B1CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		F4EB18ED2D0CEBB850A43F7A1405F64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA047C0F5E4106F3904E8497FA17F97;
+			remoteInfo = Reachability;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0006547AEB04554171D4E154EB7BE497 /* BMKGeocodeSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGeocodeSearchResult.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearchResult.h; sourceTree = "<group>"; };
+		002DB67DA1B4349CECDF226DC21B7523 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		033F2ED2BE26BB98AE635B69B55DFF84 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		03419559281E8C238C33560DBD89ED05 /* Pods_GLSDK_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GLSDK_iOS_Example.framework; path = "Pods-GLSDK-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		034DD1B846F1FADC0FBD62084AB57BB3 /* UMSocialSmsHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialSmsHandler.h; path = UMShare/SocialLibraries/SMS/UMSocialSmsHandler.h; sourceTree = "<group>"; };
+		03FE7DF4948FBD5DA01FCD5760B2C5F3 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		07A3226261EED3526799E110AC79A2DB /* CodeDirectory */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeDirectory; sourceTree = "<group>"; };
+		0879ED529D77C112FD6321E7B2861156 /* Pods-GLSDK-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLSDK-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		0A771EF7843E04D831508A2FA9ADB14D /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		0B923B357E03FE42762559777E4BFCE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0BA595EF5FD1F1F52006437271D243AF /* UMDevice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMDevice.release.xcconfig; sourceTree = "<group>"; };
+		0CDE436939A20E527FBA3B424FACAA61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0E8055F14F8DF95FA13C2B735BD42BA5 /* BMKHeatMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKHeatMap.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKHeatMap.h; sourceTree = "<group>"; };
+		102D77F2B91C5741721C5B2D5E7677B2 /* BMKTileLayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKTileLayerView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKTileLayerView.h; sourceTree = "<group>"; };
+		104AA752D1B40EF12652C9C4D41DD4B9 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		10D295D8DDF062516E2E79E68A0DE544 /* BMKMapComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMapComponent.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapComponent.h; sourceTree = "<group>"; };
+		113A7D824D7FB206FA677199B4943A2C /* BaiduMapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapKit.debug.xcconfig; sourceTree = "<group>"; };
+		12E90DAADBABCA81F03B05BA86352DB3 /* BMKWeatherSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKWeatherSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKWeatherSearchOption.h; sourceTree = "<group>"; };
+		14B8B899A449FF775B0603CE58CD3B23 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		174B5C024387A4AEFA55F0F8188C9E28 /* Pods-GLSDK-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLSDK-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		17EAE54D640DDB1D03CB47852A8315C7 /* WebViewJavascriptBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.release.xcconfig; sourceTree = "<group>"; };
+		1B6CC57ACE0E86C18E2F42B8237806C6 /* BMKMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMapView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapView.h; sourceTree = "<group>"; };
+		1CB5023FE8858A9B2330C1C9A81C98CD /* UMCCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCCommon.release.xcconfig; sourceTree = "<group>"; };
+		1CE3A9071FF7864A2BC003CEEF752686 /* BMKCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCircleView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKCircleView.h; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CFB77372325EB5AE760C60AA5CD14E /* BMKNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKNavigation.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKNavigation.h; sourceTree = "<group>"; };
+		216E3AC1174D14C9B8CC0A238A52F2AA /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		22A999E703107CF84077DB3ECF87C659 /* BMKRecommendStopSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRecommendStopSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRecommendStopSearchOption.h; sourceTree = "<group>"; };
+		235092A3C0642B65F4EC8729CDB6ABBC /* BMKPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPointAnnotation.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPointAnnotation.h; sourceTree = "<group>"; };
+		23D409DF861956434BB22AD6D33411FD /* BMKActionPaopaoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKActionPaopaoView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKActionPaopaoView.h; sourceTree = "<group>"; };
+		2429ABC57B08FD0AAC115DFE1DFE37D1 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		24B6855057FDFFD26B16A5B8E1620E0A /* GLSDK */ = {isa = PBXFileReference; includeInIndex = 1; name = GLSDK; path = "GLSDK-iOS/Classes/GLSDK.framework/GLSDK"; sourceTree = "<group>"; };
+		260B9A9E5C2783AF95A50DB5C9F0C153 /* BMKMultiPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMultiPoint.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMultiPoint.h; sourceTree = "<group>"; };
+		260F878DE250FA766829E032187496AF /* libSocialQQ.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UMShare/SocialLibraries/QQ/libSocialQQ.a; sourceTree = "<group>"; };
+		26780A224D1E5E2A9800A75869C2CFA8 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		27CC1F2AE008895F3F83DE4A2EF447D6 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		28AF3D8B342F759DF17E8B5EBB8A65B4 /* BMKBaseComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKBaseComponent.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKBaseComponent.h; sourceTree = "<group>"; };
+		28F9218055C395AD933FDC112B297959 /* BMKGeocodeSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGeocodeSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearch.h; sourceTree = "<group>"; };
+		2A77B898FFC8A8D278D1CB062994AA33 /* BMKOpenPanorama.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenPanorama.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenPanorama.h; sourceTree = "<group>"; };
+		2ABA12760030E094F0DBAF67ABA22FB4 /* BMKGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGeometry.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKGeometry.h; sourceTree = "<group>"; };
+		2B53B3D09D695C7DBCAFFCA11D043F08 /* BMKRouteSearchType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRouteSearchType.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchType.h; sourceTree = "<group>"; };
+		2C2F8AA1CD248349CB1636F64CF58264 /* BMKGroundOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGroundOverlayView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKGroundOverlayView.h; sourceTree = "<group>"; };
+		2C75556C3C242E92B3BAFAEFAD3D6DD0 /* BMKWeatherSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKWeatherSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKWeatherSearch.h; sourceTree = "<group>"; };
+		2CD31654B546846B1F51DEBF389E3295 /* BMKShareURLSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKShareURLSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKShareURLSearch.h; sourceTree = "<group>"; };
+		2CF3A9D47E5A6D3A5CEFB119EEB03621 /* Pods-GLSDK-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLSDK-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F74597942BA96982B9D814C9F28CBA5 /* BMKDistrictSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKDistrictSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKDistrictSearchOption.h; sourceTree = "<group>"; };
+		311E69C3FEC19D2AD629E217A888A4B0 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		31F46C2F06E7430CCF13F96A9566D4CF /* BMKPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPolygon.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolygon.h; sourceTree = "<group>"; };
+		325E4725DBA27FEF07FDC7C8F074C5C1 /* UMAPM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMAPM.framework; path = UMAPM_1.1.1/UMAPM.framework; sourceTree = "<group>"; };
+		36F3F6EBBFF1C813E4614337DA67B923 /* Pods-GLSDK-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLSDK-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		39CD521EB7B99F5A6399C5215DB3BEEF /* GLSDK-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLSDK-iOS-prefix.pch"; sourceTree = "<group>"; };
+		3A7AE041699E35189DB64945EEDB61C3 /* BMKPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPolyline.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolyline.h; sourceTree = "<group>"; };
+		3B71DD2A633332EC8CE501A30EF8BF6C /* BMKPoiSearchType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPoiSearchType.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchType.h; sourceTree = "<group>"; };
+		3B7498E144FDD3A02450CE63834D654F /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WXApiObject.h; sourceTree = "<group>"; };
+		3BABBF662A5F749A996835BBCA5B858A /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3CCEF4A7BC4FA4754DAE0884172F4C29 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialQQHandler.h; path = UMShare/SocialLibraries/QQ/UMSocialQQHandler.h; sourceTree = "<group>"; };
+		3E9A805A295312BD7E296EEFEF03D27B /* WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
+		3FF6CFA2196B663DDE103BF336D4A514 /* GLSDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GLSDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		407A71B57543457A20B241551EA7237B /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = UMShare/SocialLibraries/QQ/QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		4217571B42BA75BFC6F19E500FB1A221 /* BMKDistrictSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKDistrictSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKDistrictSearch.h; sourceTree = "<group>"; };
+		4268E295F2E05838664BA18CFD38AB22 /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle; sourceTree = "<group>"; };
+		442B29ECD48495D672DB49A1A18F0DF9 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		443F87F5702D91732B6DBEB9937EA8BA /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResources.bundle; path = UMShare/UMSocialUI/UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		4A6E659A9BC72B534AD43D1669F76DB7 /* BMKLineDrawType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKLineDrawType.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKLineDrawType.h; sourceTree = "<group>"; };
+		4CB1CA5B5BFD3C75BF566AF3E3B9397F /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMShare.framework; path = UMShare/UMShare.framework; sourceTree = "<group>"; };
+		4E3503B2258D003378824E1E22DC0711 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommon.framework; path = UMCommon_7.2.5/UMCommon.framework; sourceTree = "<group>"; };
+		4F231BFC4039F3C9113EF7B815FD0347 /* BMKSuggestionSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKSuggestionSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearchOption.h; sourceTree = "<group>"; };
+		4F96B763DA225D55EC4C16CFE428A7E4 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		5355FF74CD4794F7210516497F646D64 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		53B8E7CDA95A8A855C9AAA977BC0D9F1 /* GLSDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GLSDK_iOS.framework; path = "GLSDK-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5415AC5B700721AB54C106CDF5CCD1BE /* BMKMapManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMapManager.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKMapManager.h; sourceTree = "<group>"; };
+		58A0B7588D3FD79CE50069CFB1EF8D37 /* UMCCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCCommon.debug.xcconfig; sourceTree = "<group>"; };
+		5A83490C744A8E3CC0FA9F62C622F128 /* BMKRouteSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRouteSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchOption.h; sourceTree = "<group>"; };
+		5B91893B5F779B65A90AAAB41EC0B989 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		5CDB94DAC61FF31E21FE683D3A2D9E14 /* BMKOpenPoiOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenPoiOption.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenPoiOption.h; sourceTree = "<group>"; };
+		5D1108E23FA56D6D7FC9317CC493FFBE /* BaiduMapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapKit.release.xcconfig; sourceTree = "<group>"; };
+		5D2FB4139E063958128BE4D9A32EEC48 /* BMKCloudVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCloudVersion.h; path = BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudVersion.h; sourceTree = "<group>"; };
+		5E0C3C09E1890F9F981D04283CCF3944 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		5F74E27E9FE761B3CE421B5760C47C05 /* WebViewJavascriptBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WebViewJavascriptBridge-Info.plist"; sourceTree = "<group>"; };
+		5F8119D1F3FB1181D69A646E55C10704 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		5FCEE4FB6A27E1CE5D710237420ACC62 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
+		5FCF0711D650972233FACBFBF3D6A14C /* BMKOpenOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenOption.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenOption.h; sourceTree = "<group>"; };
+		602A4F72D0466CE81939A553B797E0C7 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		60F178E550151F91BEA723BD2942D6A1 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		613AB466418457E8FDC6FD9123D8FFF1 /* BMKPinAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPinAnnotationView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPinAnnotationView.h; sourceTree = "<group>"; };
+		617394BF970DCA421819C8861C63CB0B /* UMCShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCShare.debug.xcconfig; sourceTree = "<group>"; };
+		6229BB30BFAAEA40662596B0BAFB337B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		622B95B9478173A121D716C9799E83D8 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		622C6C7763B895C7264143D781807657 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		62FD8B8EE38163FA602957B24C5A994B /* Pods-GLSDK-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLSDK-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		63E64E808E1428C9BE761C534ED6480B /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		65CB36EC38409E91940756A471E9F255 /* BMKCloudSearchComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCloudSearchComponent.h; path = BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchComponent.h; sourceTree = "<group>"; };
+		65D351D66BFB1298A341D3692B949528 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		6625861143CD1099A85729DA9AF80CDE /* BMKCloudPOIList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCloudPOIList.h; path = BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudPOIList.h; sourceTree = "<group>"; };
+		6646A02F0F84A7CB2BA483F6C56FE525 /* Reachability.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.debug.xcconfig; sourceTree = "<group>"; };
+		66AE140AC20620940AC7BE3B00FDB2A4 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		68AD2C9BFF81BC7BB4BD142C8F039CD4 /* Reachability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.release.xcconfig; sourceTree = "<group>"; };
+		68C9A7A7221B0847F98C83D29183618C /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UShareUI.framework; path = UMShare/UMSocialUI/UShareUI.framework; sourceTree = "<group>"; };
+		69A667791ABB71E8B2E87CAE9F5AC3F8 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		6AD7B4B4259FA04BF85B32B0C52D9727 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		6AF26B9CFF5A52E5137FF49421A125E6 /* BMKOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOverlay.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlay.h; sourceTree = "<group>"; };
+		6B793778F7250585E1BF74E639FB97C5 /* BMKOpenRouteOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenRouteOption.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenRouteOption.h; sourceTree = "<group>"; };
+		6EEF4EFC4FE6CC5A2777F54C61A13BF9 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		6F87BBDA3B168B16BF3F71F8398A7FBE /* Pods_GLSDK_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GLSDK_iOS_Tests.framework; path = "Pods-GLSDK-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		724506E4CEF017CDDCA9814B415F2A46 /* BMKSearchVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKSearchVersion.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSearchVersion.h; sourceTree = "<group>"; };
+		72C86EF32313F810415A891C9DFF878A /* BMKPolylineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPolylineView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolylineView.h; sourceTree = "<group>"; };
+		73B878E74620F99A37175BE53EF07E62 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		7430F9B31200727A565D65E23BD66BDF /* BMKOfflineMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOfflineMap.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOfflineMap.h; sourceTree = "<group>"; };
+		76DBD52A05823DB76F88C78F666C6EFC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		7718CA2976A9522CF8FD084996D19F68 /* BMKUserLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKUserLocation.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKUserLocation.h; sourceTree = "<group>"; };
+		77C510309FBE5FDF4067F9550F958965 /* BMKOpenPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenPoi.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenPoi.h; sourceTree = "<group>"; };
+		789B374602CD5D2ACF9540F2C0A37625 /* BMKMapStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMapStatus.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapStatus.h; sourceTree = "<group>"; };
+		7950DFE9DC816D2BDB015539BB627ED4 /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
+		79EF3D3C1C60EB278C6E39600D545EAB /* GLWXApiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLWXApiManager.h; sourceTree = "<group>"; };
+		7B52A1A4B5A40072E213FEFFB6D44EAD /* BMapType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMapType.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMapType.h; sourceTree = "<group>"; };
+		7CF078F9B096615FE47F71A523996D0D /* BMKAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKAnnotation.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKAnnotation.h; sourceTree = "<group>"; };
+		7DCFDCBAE60A47C65B2ED65FC293537D /* BMKPoiSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPoiSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchOption.h; sourceTree = "<group>"; };
+		7E439DEA175D91E6A69704D575796876 /* BMKArcline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKArcline.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKArcline.h; sourceTree = "<group>"; };
+		83B75D1944859EDF243C2F9612335F01 /* libSocialOfficialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialOfficialWeChat.a; path = UMShare/SocialLibraries/WeChat/WechatSDK/libSocialOfficialWeChat.a; sourceTree = "<group>"; };
+		8411A5D0C8865B577709612197F1503D /* BMKVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKVersion.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKVersion.h; sourceTree = "<group>"; };
+		84E43BF420F0E2ACAD24AF3F5E82B97C /* BMKFavPoiInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKFavPoiInfo.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKFavPoiInfo.h; sourceTree = "<group>"; };
+		852FDADA219DB552302F269A162CDB11 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		85BAB1C83BD7BB4EC13E790244E1BD4A /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		860A8783C8082FED15886C2594F4CF39 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		86D01F00F200BA4FBDD10C0FD21EAA2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		87F024A9EC008957E65D6526736FAB3F /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		882F7A978C994C894EF068BF8254EC30 /* BMKOverlayPathView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOverlayPathView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlayPathView.h; sourceTree = "<group>"; };
+		882FFE1C8185C704D2018DE3C893D1B9 /* GLSDK-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLSDK-iOS-umbrella.h"; sourceTree = "<group>"; };
+		884756BAD049221F4443D4962479CAEC /* WebViewJavascriptBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-umbrella.h"; sourceTree = "<group>"; };
+		8ADFF0C758743130FB8B64CD97FB4519 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		8C197B67F0E95ACD3ABC2403372CEA69 /* GLManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLManager.h; sourceTree = "<group>"; };
+		8C308528D124EFA3879B5B3199C21295 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WXApi.h; sourceTree = "<group>"; };
+		8DEE0A998ACEC454CFDAA115829C38D7 /* BMKShareUrlSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKShareUrlSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKShareUrlSearchOption.h; sourceTree = "<group>"; };
+		8E36F203A37A25E53B8B2E37A8113649 /* BMKBusLineSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKBusLineSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearch.h; sourceTree = "<group>"; };
+		8E4BDEC67F2588D534E9B01DD27EB9C3 /* Pods-GLSDK-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLSDK-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8EB68B7943515E4F13CC6BE690FFD564 /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebViewJavascriptBridge.framework; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0D4B6AB5278255BEFEBCF2B099AC9C /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		900F218E05A8CB67AF1045ED0B83B0BB /* BMKSuggestionSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKSuggestionSearchResult.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearchResult.h; sourceTree = "<group>"; };
+		90E3E0E5B7B189EA9E30A912B9163E24 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		91E1F91E308241C4157095FA53215BDF /* GLSDK-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLSDK-iOS-dummy.m"; sourceTree = "<group>"; };
+		9338F215FB347271FFCE084C550E964E /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9382680A0D15ED98651D48926A2B8492 /* BMKRecommendStopSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRecommendStopSearchResult.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRecommendStopSearchResult.h; sourceTree = "<group>"; };
+		954189718A7287F34B0C3E9943FDFD00 /* BMKWeatherSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKWeatherSearchResult.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKWeatherSearchResult.h; sourceTree = "<group>"; };
+		955D6DBF6E1FF34932681277C658E077 /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
+		95DE20355946AC4C973B83CD8FE32B2B /* BMKSearchBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKSearchBase.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSearchBase.h; sourceTree = "<group>"; };
+		99AC3CB2551C142B0FE92BD2F9E6E348 /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
+		9A1D17C47B474E05B0559031E433CEEA /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		9AE7CC5BA30C4E58D5E700F7DF0A6B3B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		9B3AE4774BBE8F22E861C4A4F8896473 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A292FD951431ED91B7621AB5DED3E97B /* GLSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLSDK.framework; path = "GLSDK-iOS/Classes/GLSDK.framework"; sourceTree = "<group>"; };
+		A781BAAB3A2F3667A6A4EAE7804BF91D /* BMKLocationViewDisplayParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKLocationViewDisplayParam.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKLocationViewDisplayParam.h; sourceTree = "<group>"; };
+		A833D265A337DEDF4EFA0E024873772E /* Pods-GLSDK-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLSDK-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AA49F6C98A7785C0CB67F0A58A2F6690 /* BMKRouteSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRouteSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRouteSearch.h; sourceTree = "<group>"; };
+		AA7E88D62B7AF5F554E327895C66844C /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		AB539732AEC5DC9AC616D62039B43049 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UMShare/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
+		ABF5588CF116480F329ADC983AF2D23F /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		AC065F2EEC14B7E06AF54656E038E123 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		AC81D884FB9D1E644C04604839D6686A /* BMKBaseLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKBaseLog.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKBaseLog.h; sourceTree = "<group>"; };
+		AD3BD8A0DEE94E5445CE190B2524A3AB /* GLToastHudView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLToastHudView.h; sourceTree = "<group>"; };
+		AEBB14A428D8DA55432B2AB74E2125FD /* WebViewJavascriptBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.debug.xcconfig; sourceTree = "<group>"; };
+		AF5428BBC7361E0C641EE4F65824172F /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		B034CA1D3326A52B1397E027F2D65686 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = UMShare/SocialLibraries/WeChat/WechatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		B23D0495A5A6F880383B07F2E3EC45CE /* GLSDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GLSDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B25CC7C70DABACFA600FB8643340D072 /* BMKPoiSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPoiSearchResult.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKPoiSearchResult.h; sourceTree = "<group>"; };
+		B2C962883165BFB07F4B9A0193E18412 /* UMCShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCShare.release.xcconfig; sourceTree = "<group>"; };
+		B5A05C0FF7C1E48FD31F062D5EFD44BD /* Pods-GLSDK-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLSDK-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		B5F17BF8903204F2CB82E97DF1F5DD86 /* UMDevice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMDevice.debug.xcconfig; sourceTree = "<group>"; };
+		B670405A4FAB3A31CC51B0B5A6C9007A /* BMKCustomMapStyleOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCustomMapStyleOption.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKCustomMapStyleOption.h; sourceTree = "<group>"; };
+		B711833E18974E6EBA9114A00D91C7E8 /* Pods-GLSDK-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GLSDK-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		B8656E129251A240A1C4A2D06252C1ED /* BMKRecommendStopSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRecommendStopSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRecommendStopSearch.h; sourceTree = "<group>"; };
+		B8E0AE6429418F6AF9950705AB06F508 /* BMKPolygonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPolygonView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKPolygonView.h; sourceTree = "<group>"; };
+		B90CF52F3C598669F8BDFC253DE634D7 /* GLSDK-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GLSDK-iOS-Info.plist"; sourceTree = "<group>"; };
+		B9B39004ADC2990FEFCF3B5CE149C3BE /* GLSDK-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "GLSDK-iOS.modulemap"; sourceTree = "<group>"; };
+		BCDD81C8AD47D745813236C6581AB1EA /* BMKTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKTypes.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKTypes.h; sourceTree = "<group>"; };
+		BCDFE62A12DEEEAB97A10C06B1CE032F /* UMDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMDevice.framework; path = UMDevice_1.1.0/UMDevice.framework; sourceTree = "<group>"; };
+		BD865A1324B3894AF75D8845A9DE52A7 /* Pods-GLSDK-iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GLSDK-iOS_Example-resources.sh"; sourceTree = "<group>"; };
+		BD888A5DB99E758F2A4E0AE30B463BFC /* BMKShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKShape.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKShape.h; sourceTree = "<group>"; };
+		C08512139541B53260F285A60B8F033F /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		C37103F37D0C7D1739935C0CE435ED0E /* BMKCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCircle.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKCircle.h; sourceTree = "<group>"; };
+		C38F8C30CDDCCBFE6B48A5C7C77DF388 /* Pods-GLSDK-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GLSDK-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C47C1739F2D8CC177A3BF9E458DDA2A1 /* Pods-GLSDK-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GLSDK-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		C6F94994D30D9EB5362B3D65AE112112 /* Pods-GLSDK-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLSDK-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8DE16F1700460ED62B2522F63F358EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9EC01695FBA17E587EA644D72628980 /* Pods-GLSDK-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLSDK-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CCB76B1D1B41AD89D4E896C2DCE48D25 /* WebViewJavascriptBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WebViewJavascriptBridge.modulemap; sourceTree = "<group>"; };
+		CD80B499EDDF3B24FBA60DA73C60FD98 /* BMKBusLineSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKBusLineSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearchOption.h; sourceTree = "<group>"; };
+		CE49310BACF7F0C4E6DEA4054D815C9E /* BMKOpenRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOpenRoute.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKOpenRoute.h; sourceTree = "<group>"; };
+		CECD2D7D43AB482C00A86118FDA5AB49 /* BMKBusLineSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKBusLineSearchResult.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKBusLineSearchResult.h; sourceTree = "<group>"; };
+		D04DFEC3ECAD056E6C8B4501AACED843 /* BMKSuggestionSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKSuggestionSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSuggestionSearch.h; sourceTree = "<group>"; };
+		D0FBBE5763F89973433AFDF685F12504 /* BMKAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKAnnotationView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKAnnotationView.h; sourceTree = "<group>"; };
+		D157BAA4E13C82F95A073E8FB4A41E53 /* BMKGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGradient.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKGradient.h; sourceTree = "<group>"; };
+		D1A60519FCC9758562D9BFBBC1FCDF58 /* libSocialSMS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialSMS.a; path = UMShare/SocialLibraries/SMS/libSocialSMS.a; sourceTree = "<group>"; };
+		D500D40D43F84F5318EFF4900E7F788B /* BMKGeneralDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGeneralDelegate.h; path = BaiduMapKit/BaiduMapAPI_Base.framework/Headers/BMKGeneralDelegate.h; sourceTree = "<group>"; };
+		D52967DC5B9E27E081AABB132EEA352E /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UMShare/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		D6C76483627FB536DEF3DAAD365B8603 /* BMKTileLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKTileLayer.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKTileLayer.h; sourceTree = "<group>"; };
+		D7267FF4BAD403A9136F684D1A2B4B5B /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		DB3988C654B5E61AF319104461CF6CC5 /* CodeResources */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeResources; sourceTree = "<group>"; };
+		DCADD834D89AA8910B575293C30B84B1 /* BMKSearchComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKSearchComponent.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKSearchComponent.h; sourceTree = "<group>"; };
+		DD01B2AB7D531109DBCE4C73933C4D11 /* BMKMapVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKMapVersion.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKMapVersion.h; sourceTree = "<group>"; };
+		DE69723E4928F5E91CFC180E9F073101 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DF79C2B53DEDEB7C9973383C0A934D44 /* BMKBaseIndoorMapInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKBaseIndoorMapInfo.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKBaseIndoorMapInfo.h; sourceTree = "<group>"; };
+		DFB3BBDD43AE20B1C66574E6D99A8D13 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
+		E026AA1C4A709AAB1AD3B8F26ABB6F48 /* Pods-GLSDK-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GLSDK-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		E110F5A5C8660D7BAE80037E642B2558 /* CodeRequirements */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeRequirements; sourceTree = "<group>"; };
+		E243DFF1E50EC78ABFE0DDB6C6F88E56 /* Pods-GLSDK-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLSDK-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E2683937BA980626BED1899496B1B276 /* GLSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLSDK.h; sourceTree = "<group>"; };
+		E416A501A07BDBEA5343588C1C67307F /* BMKPoiSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKPoiSearch.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKPoiSearch.h; sourceTree = "<group>"; };
+		E51886FC2632460A070D06D0AF0134DA /* BMKFavPoiManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKFavPoiManager.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKFavPoiManager.h; sourceTree = "<group>"; };
+		E90466285201B0AF99C6F92C76B23234 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		E93E4543F3A66710DF8217CC089CB624 /* BMKCloudSearchInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCloudSearchInfo.h; path = BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearchInfo.h; sourceTree = "<group>"; };
+		EB22ABCE7EDC4065EA1CF3E0C558A758 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		EB270EB7EA7CD4E488188394AAE7124A /* Reachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
+		EB5223A58B5A7C6AD912AEF52E6837C8 /* BMKGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGroundOverlay.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKGroundOverlay.h; sourceTree = "<group>"; };
+		EB91FEFCAD47BEEAE166C5C0B5329476 /* Pods-GLSDK-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GLSDK-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EC0C3E86E603EB5874572F4D2A4D3476 /* UMAPM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMAPM.release.xcconfig; sourceTree = "<group>"; };
+		EDF24EE51CD8A6787AAB4C07FA2A6435 /* BMKCloudSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKCloudSearch.h; path = BaiduMapKit/BaiduMapAPI_Cloud.framework/Headers/BMKCloudSearch.h; sourceTree = "<group>"; };
+		EF0285DAB265144B686251FED077FB62 /* CodeRequirements-1 */ = {isa = PBXFileReference; includeInIndex = 1; path = "CodeRequirements-1"; sourceTree = "<group>"; };
+		EF1A288DB718C0889800F05C201444D6 /* BMKOverlayGLBasicView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOverlayGLBasicView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlayGLBasicView.h; sourceTree = "<group>"; };
+		F0385555316C93340889578318C34E5F /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F11AD07825508C6F112533B6EA9BE4DE /* GLSDK-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "GLSDK-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F22D21EAF6B89183568EF73E9670B452 /* BMKUtilsComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKUtilsComponent.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKUtilsComponent.h; sourceTree = "<group>"; };
+		F2CA50E4CB632FCEF175EFD6A66D9A43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "GLSDK-iOS/Classes/GLSDK.framework/Info.plist"; sourceTree = "<group>"; };
+		F3682D3B9D7AC19C6DFA447CC3480A4E /* UMAPM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMAPM.debug.xcconfig; sourceTree = "<group>"; };
+		F3E76DA02144907320A80273D5F2FA68 /* CodeSignature */ = {isa = PBXFileReference; includeInIndex = 1; path = CodeSignature; sourceTree = "<group>"; };
+		F3FF81645B7535FDC1D2913B42B4DC27 /* BMKUtilsVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKUtilsVersion.h; path = BaiduMapKit/BaiduMapAPI_Utils.framework/Headers/BMKUtilsVersion.h; sourceTree = "<group>"; };
+		F4D6F625B324B2E991834458128A2E80 /* BMKDistrictSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKDistrictSearchResult.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKDistrictSearchResult.h; sourceTree = "<group>"; };
+		F5BA742B5F1A89548A8FD1DCBABCD879 /* Pods-GLSDK-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLSDK-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		F872AC0640132187A732F731055B6D53 /* BMKOfflineMapType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOfflineMapType.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOfflineMapType.h; sourceTree = "<group>"; };
+		F914AED02E7CF12E39DE810A2965A79E /* BMKOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKOverlayView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKOverlayView.h; sourceTree = "<group>"; };
+		FA0F906C44AE40CBB6728901231CB387 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		FAD9EED6A3876785CBB15B177B715A96 /* BMKGeocodeSearchOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKGeocodeSearchOption.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKGeocodeSearchOption.h; sourceTree = "<group>"; };
+		FB7A04A4EF6E45F237B763DF1B6640F7 /* BMKArclineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKArclineView.h; path = BaiduMapKit/BaiduMapAPI_Map.framework/Headers/BMKArclineView.h; sourceTree = "<group>"; };
+		FC901A61A816E5C1E931359903194523 /* BMKRouteSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BMKRouteSearchResult.h; path = BaiduMapKit/BaiduMapAPI_Search.framework/Headers/BMKRouteSearchResult.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0142C5955B804B191720E0B325F09899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D916B3222F5CCF365504F528802D14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D08162610D09BFE6841489594E62F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6195843E4A300C69F94B6488BDD23E77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D89853553F1C1999D6A8C91CB98ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4922B2BBCA538CF099B113130B4C5489 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826C8759DA13CC3F7FC6DEEC4DD45705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35206F0389266C0E4AFDF0C684EFFFF0 /* Foundation.framework in Frameworks */,
+				750D0B5FCD6F7DA42E34D32965D7997B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C847A4ED2EEA5F243C7DDC8C99CF28E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A52BB3CBA25451C1D0F34C199101172 /* Foundation.framework in Frameworks */,
+				136E037214A739D80C31BBC86675D3C6 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB37C4717AB1405CFF593176C56E8BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403D3BE4EC85A2395F18F4DE9C390BE4 /* Foundation.framework in Frameworks */,
+				153684C9360E6EC7975558B7131E0D4D /* UIKit.framework in Frameworks */,
+				602E04AF154D2FDEBDCBCB305DA4AE01 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03688A6AE3A53C6E1220FE167C3E6304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				622B95B9478173A121D716C9799E83D8 /* BaiduMapAPI_Map.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A17DE09C89063B569226D6997A40B46 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				28AF3D8B342F759DF17E8B5EBB8A65B4 /* BMKBaseComponent.h */,
+				AC81D884FB9D1E644C04604839D6686A /* BMKBaseLog.h */,
+				D500D40D43F84F5318EFF4900E7F788B /* BMKGeneralDelegate.h */,
+				5415AC5B700721AB54C106CDF5CCD1BE /* BMKMapManager.h */,
+				BCDD81C8AD47D745813236C6581AB1EA /* BMKTypes.h */,
+				7718CA2976A9522CF8FD084996D19F68 /* BMKUserLocation.h */,
+				8411A5D0C8865B577709612197F1503D /* BMKVersion.h */,
+				8D3EB19CDD0120011C5D372A240C6899 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1E06D896A5C4631EBA432681F62DB886 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F17BF8903204F2CB82E97DF1F5DD86 /* UMDevice.debug.xcconfig */,
+				0BA595EF5FD1F1F52006437271D243AF /* UMDevice.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMDevice";
+			sourceTree = "<group>";
+		};
+		1E1EE9FD08F20CE2CEF8B05FD0E85655 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B2A00032615F3695D689506EE1CB035F /* Frameworks */,
+				B9948CC214BC95DF46A9FE9BD34C2730 /* Resources */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		232CDB5294561BEF0037DD78AB773D22 /* UMCCommon */ = {
+			isa = PBXGroup;
+			children = (
+				E5885BBA77F509B6B02E6C9DEBA081BE /* Frameworks */,
+				6B27FA7C10E838B383DC727C17CF2737 /* Support Files */,
+			);
+			name = UMCCommon;
+			path = UMCCommon;
+			sourceTree = "<group>";
+		};
+		25574A85D6EA6EA5D9A2966E1E507A9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216E3AC1174D14C9B8CC0A238A52F2AA /* BaiduMapAPI_Cloud.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27EF22ED59501F0999C23C00FF6EED44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9B39004ADC2990FEFCF3B5CE149C3BE /* GLSDK-iOS.modulemap */,
+				91E1F91E308241C4157095FA53215BDF /* GLSDK-iOS-dummy.m */,
+				B90CF52F3C598669F8BDFC253DE634D7 /* GLSDK-iOS-Info.plist */,
+				39CD521EB7B99F5A6399C5215DB3BEEF /* GLSDK-iOS-prefix.pch */,
+				882FFE1C8185C704D2018DE3C893D1B9 /* GLSDK-iOS-umbrella.h */,
+				B23D0495A5A6F880383B07F2E3EC45CE /* GLSDK-iOS.debug.xcconfig */,
+				3FF6CFA2196B663DDE103BF336D4A514 /* GLSDK-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GLSDK-iOS";
+			sourceTree = "<group>";
+		};
+		302B34E01D06952D0DD912D953414898 /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				9224E1C460F8FF4E7EC268FA00A903B1 /* Frameworks */,
+			);
+			name = QQ;
+			sourceTree = "<group>";
+		};
+		325B1745F1672989EC9731A4F5D750EC /* SMS */ = {
+			isa = PBXGroup;
+			children = (
+				034DD1B846F1FADC0FBD62084AB57BB3 /* UMSocialSmsHandler.h */,
+				46DFDBA97B438A886B9F529A62B7B021 /* Frameworks */,
+			);
+			name = SMS;
+			sourceTree = "<group>";
+		};
+		3706328DE632B136135C7E3D5E657BCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				260F878DE250FA766829E032187496AF /* libSocialQQ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AF2EE42DFBFAA97E6C4813418E74C8E /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				5355FF74CD4794F7210516497F646D64 /* WebViewJavascriptBridge.h */,
+				60F178E550151F91BEA723BD2942D6A1 /* WebViewJavascriptBridge.m */,
+				ABF5588CF116480F329ADC983AF2D23F /* WebViewJavascriptBridge_JS.h */,
+				0A771EF7843E04D831508A2FA9ADB14D /* WebViewJavascriptBridge_JS.m */,
+				6AD7B4B4259FA04BF85B32B0C52D9727 /* WebViewJavascriptBridgeBase.h */,
+				311E69C3FEC19D2AD629E217A888A4B0 /* WebViewJavascriptBridgeBase.m */,
+				85BAB1C83BD7BB4EC13E790244E1BD4A /* WKWebViewJavascriptBridge.h */,
+				AA7E88D62B7AF5F554E327895C66844C /* WKWebViewJavascriptBridge.m */,
+				BAF69BCF18E6E62041A0BD62848201D4 /* Support Files */,
+			);
+			name = WebViewJavascriptBridge;
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		3B1FE72061C4D8569E665422887C1702 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				84E43BF420F0E2ACAD24AF3F5E82B97C /* BMKFavPoiInfo.h */,
+				E51886FC2632460A070D06D0AF0134DA /* BMKFavPoiManager.h */,
+				2ABA12760030E094F0DBAF67ABA22FB4 /* BMKGeometry.h */,
+				20CFB77372325EB5AE760C60AA5CD14E /* BMKNavigation.h */,
+				5FCF0711D650972233FACBFBF3D6A14C /* BMKOpenOption.h */,
+				2A77B898FFC8A8D278D1CB062994AA33 /* BMKOpenPanorama.h */,
+				77C510309FBE5FDF4067F9550F958965 /* BMKOpenPoi.h */,
+				5CDB94DAC61FF31E21FE683D3A2D9E14 /* BMKOpenPoiOption.h */,
+				CE49310BACF7F0C4E6DEA4054D815C9E /* BMKOpenRoute.h */,
+				6B793778F7250585E1BF74E639FB97C5 /* BMKOpenRouteOption.h */,
+				F22D21EAF6B89183568EF73E9670B452 /* BMKUtilsComponent.h */,
+				F3FF81645B7535FDC1D2913B42B4DC27 /* BMKUtilsVersion.h */,
+				827A4B9BD0AD4116D26673C1A23E4FC8 /* Frameworks */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		3DA87195844DFCC6D16BE7ACF937C63A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCDFE62A12DEEEAB97A10C06B1CE032F /* UMDevice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40D108CCA366DD03B9938792B55FE600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				033F2ED2BE26BB98AE635B69B55DFF84 /* BaiduMapAPI_Search.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		411111CCCD0EA2CF34B13AAE93345A2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3682D3B9D7AC19C6DFA447CC3480A4E /* UMAPM.debug.xcconfig */,
+				EC0C3E86E603EB5874572F4D2A4D3476 /* UMAPM.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMAPM";
+			sourceTree = "<group>";
+		};
+		43CF21AB64B0BD75BE3E651E60032E5C /* Pods-GLSDK-iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B5A05C0FF7C1E48FD31F062D5EFD44BD /* Pods-GLSDK-iOS_Tests.modulemap */,
+				2CF3A9D47E5A6D3A5CEFB119EEB03621 /* Pods-GLSDK-iOS_Tests-acknowledgements.markdown */,
+				174B5C024387A4AEFA55F0F8188C9E28 /* Pods-GLSDK-iOS_Tests-acknowledgements.plist */,
+				0879ED529D77C112FD6321E7B2861156 /* Pods-GLSDK-iOS_Tests-dummy.m */,
+				62FD8B8EE38163FA602957B24C5A994B /* Pods-GLSDK-iOS_Tests-Info.plist */,
+				A833D265A337DEDF4EFA0E024873772E /* Pods-GLSDK-iOS_Tests-umbrella.h */,
+				36F3F6EBBFF1C813E4614337DA67B923 /* Pods-GLSDK-iOS_Tests.debug.xcconfig */,
+				EB91FEFCAD47BEEAE166C5C0B5329476 /* Pods-GLSDK-iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-GLSDK-iOS_Tests";
+			path = "Target Support Files/Pods-GLSDK-iOS_Tests";
+			sourceTree = "<group>";
+		};
+		46DFDBA97B438A886B9F529A62B7B021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1A60519FCC9758562D9BFBBC1FCDF58 /* libSocialSMS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		532874458D48FB697AC873FE1CE9020F /* ReducedQQ */ = {
+			isa = PBXGroup;
+			children = (
+				3CCEF4A7BC4FA4754DAE0884172F4C29 /* UMSocialQQHandler.h */,
+				3706328DE632B136135C7E3D5E657BCE /* Frameworks */,
+			);
+			name = ReducedQQ;
+			sourceTree = "<group>";
+		};
+		577468A7B63801B931572FC6D2BB346B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8C197B67F0E95ACD3ABC2403372CEA69 /* GLManager.h */,
+				E2683937BA980626BED1899496B1B276 /* GLSDK.h */,
+				AD3BD8A0DEE94E5445CE190B2524A3AB /* GLToastHudView.h */,
+				79EF3D3C1C60EB278C6E39600D545EAB /* GLWXApiManager.h */,
+			);
+			name = Headers;
+			path = "GLSDK-iOS/Classes/GLSDK.framework/Headers";
+			sourceTree = "<group>";
+		};
+		6312B85B1BA35E383899CBBF6EFB5898 /* UMCShare */ = {
+			isa = PBXGroup;
+			children = (
+				9F60730496C6063C73840C3F4ADF4AA9 /* Core */,
+				77BC3E7406D4E55F9ACD9DE1C1C588EA /* Social */,
+				BD6F571DF51AEBBA627BC38CD95AD944 /* Support Files */,
+				1E1EE9FD08F20CE2CEF8B05FD0E85655 /* UI */,
+			);
+			name = UMCShare;
+			path = UMCShare;
+			sourceTree = "<group>";
+		};
+		6543C9F25F47724C479C9DE5B4BED7B4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0B923B357E03FE42762559777E4BFCE9 /* Foundation.framework */,
+				9AE7CC5BA30C4E58D5E700F7DF0A6B3B /* SystemConfiguration.framework */,
+				C8DE16F1700460ED62B2522F63F358EB /* UIKit.framework */,
+				E90466285201B0AF99C6F92C76B23234 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6770BAB7E5F0083B649FEACD924FEA89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB539732AEC5DC9AC616D62039B43049 /* libSocialWeChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6941D56CE56D511EF6B15EE9E37FD3EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB1CA5B5BFD3C75BF566AF3E3B9397F /* UMShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B27FA7C10E838B383DC727C17CF2737 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58A0B7588D3FD79CE50069CFB1EF8D37 /* UMCCommon.debug.xcconfig */,
+				1CB5023FE8858A9B2330C1C9A81C98CD /* UMCCommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCCommon";
+			sourceTree = "<group>";
+		};
+		765CA863368AE085179FCE12CDC2692B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				325E4725DBA27FEF07FDC7C8F074C5C1 /* UMAPM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77BC3E7406D4E55F9ACD9DE1C1C588EA /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				302B34E01D06952D0DD912D953414898 /* QQ */,
+				532874458D48FB697AC873FE1CE9020F /* ReducedQQ */,
+				F8CC11B694A15CC1EC7B78E598470E51 /* ReducedWeChat */,
+				325B1745F1672989EC9731A4F5D750EC /* SMS */,
+				CFFAA56EAAC427ECA095BB60A7111DB7 /* WeChat */,
+			);
+			name = Social;
+			sourceTree = "<group>";
+		};
+		827A4B9BD0AD4116D26673C1A23E4FC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002DB67DA1B4349CECDF226DC21B7523 /* BaiduMapAPI_Utils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		878D42C87740EC37A30142593AD23A14 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2B9FE3275A3085A3E1EDD98A575B585 /* GLSDK-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		882C6E62F3D8FCE4BA7AF11FB3D640CC /* Cloud */ = {
+			isa = PBXGroup;
+			children = (
+				6625861143CD1099A85729DA9AF80CDE /* BMKCloudPOIList.h */,
+				EDF24EE51CD8A6787AAB4C07FA2A6435 /* BMKCloudSearch.h */,
+				65CB36EC38409E91940756A471E9F255 /* BMKCloudSearchComponent.h */,
+				E93E4543F3A66710DF8217CC089CB624 /* BMKCloudSearchInfo.h */,
+				5D2FB4139E063958128BE4D9A32EEC48 /* BMKCloudVersion.h */,
+				25574A85D6EA6EA5D9A2966E1E507A9F /* Frameworks */,
+			);
+			name = Cloud;
+			sourceTree = "<group>";
+		};
+		8BB869072B2AEDC65FF827596BE081FD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				65D351D66BFB1298A341D3692B949528 /* MASCompositeConstraint.h */,
+				6229BB30BFAAEA40662596B0BAFB337B /* MASCompositeConstraint.m */,
+				5B91893B5F779B65A90AAAB41EC0B989 /* MASConstraint.h */,
+				66AE140AC20620940AC7BE3B00FDB2A4 /* MASConstraint.m */,
+				6EEF4EFC4FE6CC5A2777F54C61A13BF9 /* MASConstraint+Private.h */,
+				9A1D17C47B474E05B0559031E433CEEA /* MASConstraintMaker.h */,
+				8ADFF0C758743130FB8B64CD97FB4519 /* MASConstraintMaker.m */,
+				DE69723E4928F5E91CFC180E9F073101 /* MASLayoutConstraint.h */,
+				5F8119D1F3FB1181D69A646E55C10704 /* MASLayoutConstraint.m */,
+				852FDADA219DB552302F269A162CDB11 /* Masonry.h */,
+				104AA752D1B40EF12652C9C4D41DD4B9 /* MASUtilities.h */,
+				27CC1F2AE008895F3F83DE4A2EF447D6 /* MASViewAttribute.h */,
+				4F96B763DA225D55EC4C16CFE428A7E4 /* MASViewAttribute.m */,
+				5E0C3C09E1890F9F981D04283CCF3944 /* MASViewConstraint.h */,
+				FA0F906C44AE40CBB6728901231CB387 /* MASViewConstraint.m */,
+				76DBD52A05823DB76F88C78F666C6EFC /* NSArray+MASAdditions.h */,
+				AF5428BBC7361E0C641EE4F65824172F /* NSArray+MASAdditions.m */,
+				9B3AE4774BBE8F22E861C4A4F8896473 /* NSArray+MASShorthandAdditions.h */,
+				8F0D4B6AB5278255BEFEBCF2B099AC9C /* NSLayoutConstraint+MASDebugAdditions.h */,
+				442B29ECD48495D672DB49A1A18F0DF9 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				860A8783C8082FED15886C2594F4CF39 /* View+MASAdditions.h */,
+				63E64E808E1428C9BE761C534ED6480B /* View+MASAdditions.m */,
+				73B878E74620F99A37175BE53EF07E62 /* View+MASShorthandAdditions.h */,
+				26780A224D1E5E2A9800A75869C2CFA8 /* ViewController+MASAdditions.h */,
+				622C6C7763B895C7264143D781807657 /* ViewController+MASAdditions.m */,
+				8E7D907E389C8C06E39886A13D76161E /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		8D3EB19CDD0120011C5D372A240C6899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14B8B899A449FF775B0603CE58CD3B23 /* BaiduMapAPI_Base.framework */,
+				2429ABC57B08FD0AAC115DFE1DFE37D1 /* libcrypto.a */,
+				90E3E0E5B7B189EA9E30A912B9163E24 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E7D907E389C8C06E39886A13D76161E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BABBF662A5F749A996835BBCA5B858A /* Masonry.modulemap */,
+				69A667791ABB71E8B2E87CAE9F5AC3F8 /* Masonry-dummy.m */,
+				D7267FF4BAD403A9136F684D1A2B4B5B /* Masonry-Info.plist */,
+				AC065F2EEC14B7E06AF54656E038E123 /* Masonry-prefix.pch */,
+				C08512139541B53260F285A60B8F033F /* Masonry-umbrella.h */,
+				DFB3BBDD43AE20B1C66574E6D99A8D13 /* Masonry.debug.xcconfig */,
+				5FCEE4FB6A27E1CE5D710237420ACC62 /* Masonry.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		9194129C3FD9E84282CAE51E692A919C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A292FD951431ED91B7621AB5DED3E97B /* GLSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9224E1C460F8FF4E7EC268FA00A903B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				407A71B57543457A20B241551EA7237B /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		971115619EDD937E628A13470E345387 /* Pods-GLSDK-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C47C1739F2D8CC177A3BF9E458DDA2A1 /* Pods-GLSDK-iOS_Example.modulemap */,
+				C38F8C30CDDCCBFE6B48A5C7C77DF388 /* Pods-GLSDK-iOS_Example-acknowledgements.markdown */,
+				C6F94994D30D9EB5362B3D65AE112112 /* Pods-GLSDK-iOS_Example-acknowledgements.plist */,
+				B711833E18974E6EBA9114A00D91C7E8 /* Pods-GLSDK-iOS_Example-dummy.m */,
+				8E4BDEC67F2588D534E9B01DD27EB9C3 /* Pods-GLSDK-iOS_Example-frameworks.sh */,
+				E026AA1C4A709AAB1AD3B8F26ABB6F48 /* Pods-GLSDK-iOS_Example-Info.plist */,
+				BD865A1324B3894AF75D8845A9DE52A7 /* Pods-GLSDK-iOS_Example-resources.sh */,
+				F5BA742B5F1A89548A8FD1DCBABCD879 /* Pods-GLSDK-iOS_Example-umbrella.h */,
+				C9EC01695FBA17E587EA644D72628980 /* Pods-GLSDK-iOS_Example.debug.xcconfig */,
+				E243DFF1E50EC78ABFE0DDB6C6F88E56 /* Pods-GLSDK-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-GLSDK-iOS_Example";
+			path = "Target Support Files/Pods-GLSDK-iOS_Example";
+			sourceTree = "<group>";
+		};
+		9F60730496C6063C73840C3F4ADF4AA9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6941D56CE56D511EF6B15EE9E37FD3EB /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A2B9FE3275A3085A3E1EDD98A575B585 /* GLSDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				24B6855057FDFFD26B16A5B8E1620E0A /* GLSDK */,
+				F2CA50E4CB632FCEF175EFD6A66D9A43 /* Info.plist */,
+				FEA8EE3B22A402AF29545393E0C0E61A /* _CodeSignature */,
+				9194129C3FD9E84282CAE51E692A919C /* Frameworks */,
+				577468A7B63801B931572FC6D2BB346B /* Headers */,
+				C7C7E4B419D43C1482E03504E7A565A4 /* Modules */,
+				B1DA6E10869D1604DA73E8FBCAF37C5D /* Pod */,
+				27EF22ED59501F0999C23C00FF6EED44 /* Support Files */,
+			);
+			name = "GLSDK-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A365BD35E3D9A2308799F1B0975E8924 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				955D6DBF6E1FF34932681277C658E077 /* Reachability.modulemap */,
+				602A4F72D0466CE81939A553B797E0C7 /* Reachability-dummy.m */,
+				EB270EB7EA7CD4E488188394AAE7124A /* Reachability-Info.plist */,
+				EB22ABCE7EDC4065EA1CF3E0C558A758 /* Reachability-prefix.pch */,
+				7950DFE9DC816D2BDB015539BB627ED4 /* Reachability-umbrella.h */,
+				6646A02F0F84A7CB2BA483F6C56FE525 /* Reachability.debug.xcconfig */,
+				68AD2C9BFF81BC7BB4BD142C8F039CD4 /* Reachability.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		A6694C0BDFDE32899D0905090FC41EC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53B8E7CDA95A8A855C9AAA977BC0D9F1 /* GLSDK_iOS.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				03419559281E8C238C33560DBD89ED05 /* Pods_GLSDK_iOS_Example.framework */,
+				6F87BBDA3B168B16BF3F71F8398A7FBE /* Pods_GLSDK_iOS_Tests.framework */,
+				400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */,
+				8EB68B7943515E4F13CC6BE690FFD564 /* WebViewJavascriptBridge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD48E3EA62CE3F6669EC5EC6DD05AA9F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				8E36F203A37A25E53B8B2E37A8113649 /* BMKBusLineSearch.h */,
+				CD80B499EDDF3B24FBA60DA73C60FD98 /* BMKBusLineSearchOption.h */,
+				CECD2D7D43AB482C00A86118FDA5AB49 /* BMKBusLineSearchResult.h */,
+				4217571B42BA75BFC6F19E500FB1A221 /* BMKDistrictSearch.h */,
+				2F74597942BA96982B9D814C9F28CBA5 /* BMKDistrictSearchOption.h */,
+				F4D6F625B324B2E991834458128A2E80 /* BMKDistrictSearchResult.h */,
+				28F9218055C395AD933FDC112B297959 /* BMKGeocodeSearch.h */,
+				FAD9EED6A3876785CBB15B177B715A96 /* BMKGeocodeSearchOption.h */,
+				0006547AEB04554171D4E154EB7BE497 /* BMKGeocodeSearchResult.h */,
+				E416A501A07BDBEA5343588C1C67307F /* BMKPoiSearch.h */,
+				7DCFDCBAE60A47C65B2ED65FC293537D /* BMKPoiSearchOption.h */,
+				B25CC7C70DABACFA600FB8643340D072 /* BMKPoiSearchResult.h */,
+				3B71DD2A633332EC8CE501A30EF8BF6C /* BMKPoiSearchType.h */,
+				B8656E129251A240A1C4A2D06252C1ED /* BMKRecommendStopSearch.h */,
+				22A999E703107CF84077DB3ECF87C659 /* BMKRecommendStopSearchOption.h */,
+				9382680A0D15ED98651D48926A2B8492 /* BMKRecommendStopSearchResult.h */,
+				AA49F6C98A7785C0CB67F0A58A2F6690 /* BMKRouteSearch.h */,
+				5A83490C744A8E3CC0FA9F62C622F128 /* BMKRouteSearchOption.h */,
+				FC901A61A816E5C1E931359903194523 /* BMKRouteSearchResult.h */,
+				2B53B3D09D695C7DBCAFFCA11D043F08 /* BMKRouteSearchType.h */,
+				95DE20355946AC4C973B83CD8FE32B2B /* BMKSearchBase.h */,
+				DCADD834D89AA8910B575293C30B84B1 /* BMKSearchComponent.h */,
+				724506E4CEF017CDDCA9814B415F2A46 /* BMKSearchVersion.h */,
+				2CD31654B546846B1F51DEBF389E3295 /* BMKShareURLSearch.h */,
+				8DEE0A998ACEC454CFDAA115829C38D7 /* BMKShareUrlSearchOption.h */,
+				D04DFEC3ECAD056E6C8B4501AACED843 /* BMKSuggestionSearch.h */,
+				4F231BFC4039F3C9113EF7B815FD0347 /* BMKSuggestionSearchOption.h */,
+				900F218E05A8CB67AF1045ED0B83B0BB /* BMKSuggestionSearchResult.h */,
+				2C75556C3C242E92B3BAFAEFAD3D6DD0 /* BMKWeatherSearch.h */,
+				12E90DAADBABCA81F03B05BA86352DB3 /* BMKWeatherSearchOption.h */,
+				954189718A7287F34B0C3E9943FDFD00 /* BMKWeatherSearchResult.h */,
+				40D108CCA366DD03B9938792B55FE600 /* Frameworks */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		B1DA6E10869D1604DA73E8FBCAF37C5D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F11AD07825508C6F112533B6EA9BE4DE /* GLSDK-iOS.podspec */,
+				86D01F00F200BA4FBDD10C0FD21EAA2D /* LICENSE */,
+				0CDE436939A20E527FBA3B424FACAA61 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B2A00032615F3695D689506EE1CB035F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68C9A7A7221B0847F98C83D29183618C /* UShareUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5E31B097FA63F12133B5B390EB010AB /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				9338F215FB347271FFCE084C550E964E /* Reachability.h */,
+				F0385555316C93340889578318C34E5F /* Reachability.m */,
+				A365BD35E3D9A2308799F1B0975E8924 /* Support Files */,
+			);
+			name = Reachability;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		B9948CC214BC95DF46A9FE9BD34C2730 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				443F87F5702D91732B6DBEB9937EA8BA /* UMSocialSDKResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6543C9F25F47724C479C9DE5B4BED7B4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAF69BCF18E6E62041A0BD62848201D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCB76B1D1B41AD89D4E896C2DCE48D25 /* WebViewJavascriptBridge.modulemap */,
+				3E9A805A295312BD7E296EEFEF03D27B /* WebViewJavascriptBridge-dummy.m */,
+				5F74E27E9FE761B3CE421B5760C47C05 /* WebViewJavascriptBridge-Info.plist */,
+				99AC3CB2551C142B0FE92BD2F9E6E348 /* WebViewJavascriptBridge-prefix.pch */,
+				884756BAD049221F4443D4962479CAEC /* WebViewJavascriptBridge-umbrella.h */,
+				AEBB14A428D8DA55432B2AB74E2125FD /* WebViewJavascriptBridge.debug.xcconfig */,
+				17EAE54D640DDB1D03CB47852A8315C7 /* WebViewJavascriptBridge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WebViewJavascriptBridge";
+			sourceTree = "<group>";
+		};
+		BBC6E43FC0F7DADC13E010957B423ADF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				971115619EDD937E628A13470E345387 /* Pods-GLSDK-iOS_Example */,
+				43CF21AB64B0BD75BE3E651E60032E5C /* Pods-GLSDK-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC86D1D4430886929DC6ADB7259463F9 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				7B52A1A4B5A40072E213FEFFB6D44EAD /* BMapType.h */,
+				23D409DF861956434BB22AD6D33411FD /* BMKActionPaopaoView.h */,
+				7CF078F9B096615FE47F71A523996D0D /* BMKAnnotation.h */,
+				D0FBBE5763F89973433AFDF685F12504 /* BMKAnnotationView.h */,
+				7E439DEA175D91E6A69704D575796876 /* BMKArcline.h */,
+				FB7A04A4EF6E45F237B763DF1B6640F7 /* BMKArclineView.h */,
+				DF79C2B53DEDEB7C9973383C0A934D44 /* BMKBaseIndoorMapInfo.h */,
+				C37103F37D0C7D1739935C0CE435ED0E /* BMKCircle.h */,
+				1CE3A9071FF7864A2BC003CEEF752686 /* BMKCircleView.h */,
+				B670405A4FAB3A31CC51B0B5A6C9007A /* BMKCustomMapStyleOption.h */,
+				D157BAA4E13C82F95A073E8FB4A41E53 /* BMKGradient.h */,
+				EB5223A58B5A7C6AD912AEF52E6837C8 /* BMKGroundOverlay.h */,
+				2C2F8AA1CD248349CB1636F64CF58264 /* BMKGroundOverlayView.h */,
+				0E8055F14F8DF95FA13C2B735BD42BA5 /* BMKHeatMap.h */,
+				4A6E659A9BC72B534AD43D1669F76DB7 /* BMKLineDrawType.h */,
+				A781BAAB3A2F3667A6A4EAE7804BF91D /* BMKLocationViewDisplayParam.h */,
+				10D295D8DDF062516E2E79E68A0DE544 /* BMKMapComponent.h */,
+				789B374602CD5D2ACF9540F2C0A37625 /* BMKMapStatus.h */,
+				DD01B2AB7D531109DBCE4C73933C4D11 /* BMKMapVersion.h */,
+				1B6CC57ACE0E86C18E2F42B8237806C6 /* BMKMapView.h */,
+				260B9A9E5C2783AF95A50DB5C9F0C153 /* BMKMultiPoint.h */,
+				7430F9B31200727A565D65E23BD66BDF /* BMKOfflineMap.h */,
+				F872AC0640132187A732F731055B6D53 /* BMKOfflineMapType.h */,
+				6AF26B9CFF5A52E5137FF49421A125E6 /* BMKOverlay.h */,
+				EF1A288DB718C0889800F05C201444D6 /* BMKOverlayGLBasicView.h */,
+				882F7A978C994C894EF068BF8254EC30 /* BMKOverlayPathView.h */,
+				F914AED02E7CF12E39DE810A2965A79E /* BMKOverlayView.h */,
+				613AB466418457E8FDC6FD9123D8FFF1 /* BMKPinAnnotationView.h */,
+				235092A3C0642B65F4EC8729CDB6ABBC /* BMKPointAnnotation.h */,
+				31F46C2F06E7430CCF13F96A9566D4CF /* BMKPolygon.h */,
+				B8E0AE6429418F6AF9950705AB06F508 /* BMKPolygonView.h */,
+				3A7AE041699E35189DB64945EEDB61C3 /* BMKPolyline.h */,
+				72C86EF32313F810415A891C9DFF878A /* BMKPolylineView.h */,
+				BD888A5DB99E758F2A4E0AE30B463BFC /* BMKShape.h */,
+				D6C76483627FB536DEF3DAAD365B8603 /* BMKTileLayer.h */,
+				102D77F2B91C5741721C5B2D5E7677B2 /* BMKTileLayerView.h */,
+				03688A6AE3A53C6E1220FE167C3E6304 /* Frameworks */,
+				EBD0E4FBD079EF78AF02956FDE39586E /* Resources */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		BD6F571DF51AEBBA627BC38CD95AD944 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				617394BF970DCA421819C8861C63CB0B /* UMCShare.debug.xcconfig */,
+				B2C962883165BFB07F4B9A0193E18412 /* UMCShare.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCShare";
+			sourceTree = "<group>";
+		};
+		BE0EE6673DA42E901694F2BED2DF553D /* UMDevice */ = {
+			isa = PBXGroup;
+			children = (
+				3DA87195844DFCC6D16BE7ACF937C63A /* Frameworks */,
+				1E06D896A5C4631EBA432681F62DB886 /* Support Files */,
+			);
+			name = UMDevice;
+			path = UMDevice;
+			sourceTree = "<group>";
+		};
+		C209D72DDA2DB620E959DCFC43B3B346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83B75D1944859EDF243C2F9612335F01 /* libSocialOfficialWeChat.a */,
+				B034CA1D3326A52B1397E027F2D65686 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C714BDE459533702714A05F13AB22EC3 /* UMAPM */ = {
+			isa = PBXGroup;
+			children = (
+				765CA863368AE085179FCE12CDC2692B /* Frameworks */,
+				411111CCCD0EA2CF34B13AAE93345A2C /* Support Files */,
+			);
+			name = UMAPM;
+			path = UMAPM;
+			sourceTree = "<group>";
+		};
+		C7C7E4B419D43C1482E03504E7A565A4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				03FE7DF4948FBD5DA01FCD5760B2C5F3 /* module.modulemap */,
+			);
+			name = Modules;
+			path = "GLSDK-iOS/Classes/GLSDK.framework/Modules";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				878D42C87740EC37A30142593AD23A14 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				F8D3122BC2A430FF05BC19115972243F /* Pods */,
+				A6694C0BDFDE32899D0905090FC41EC1 /* Products */,
+				BBC6E43FC0F7DADC13E010957B423ADF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFAA56EAAC427ECA095BB60A7111DB7 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				87F024A9EC008957E65D6526736FAB3F /* WechatAuthSDK.h */,
+				8C308528D124EFA3879B5B3199C21295 /* WXApi.h */,
+				3B7498E144FDD3A02450CE63834D654F /* WXApiObject.h */,
+				C209D72DDA2DB620E959DCFC43B3B346 /* Frameworks */,
+			);
+			name = WeChat;
+			sourceTree = "<group>";
+		};
+		D9701DA359A3C1A80DD3DB0A4D09970A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				113A7D824D7FB206FA677199B4943A2C /* BaiduMapKit.debug.xcconfig */,
+				5D1108E23FA56D6D7FC9317CC493FFBE /* BaiduMapKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BaiduMapKit";
+			sourceTree = "<group>";
+		};
+		E5885BBA77F509B6B02E6C9DEBA081BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E3503B2258D003378824E1E22DC0711 /* UMCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBD0E4FBD079EF78AF02956FDE39586E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4268E295F2E05838664BA18CFD38AB22 /* mapapi.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F8CC11B694A15CC1EC7B78E598470E51 /* ReducedWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				D52967DC5B9E27E081AABB132EEA352E /* UMSocialWechatHandler.h */,
+				6770BAB7E5F0083B649FEACD924FEA89 /* Frameworks */,
+			);
+			name = ReducedWeChat;
+			sourceTree = "<group>";
+		};
+		F8D3122BC2A430FF05BC19115972243F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB7119299DE778A1A0C454F59ED43473 /* BaiduMapKit */,
+				8BB869072B2AEDC65FF827596BE081FD /* Masonry */,
+				B5E31B097FA63F12133B5B390EB010AB /* Reachability */,
+				C714BDE459533702714A05F13AB22EC3 /* UMAPM */,
+				232CDB5294561BEF0037DD78AB773D22 /* UMCCommon */,
+				6312B85B1BA35E383899CBBF6EFB5898 /* UMCShare */,
+				BE0EE6673DA42E901694F2BED2DF553D /* UMDevice */,
+				3AF2EE42DFBFAA97E6C4813418E74C8E /* WebViewJavascriptBridge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB7119299DE778A1A0C454F59ED43473 /* BaiduMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				1A17DE09C89063B569226D6997A40B46 /* Base */,
+				882C6E62F3D8FCE4BA7AF11FB3D640CC /* Cloud */,
+				BC86D1D4430886929DC6ADB7259463F9 /* Map */,
+				AD48E3EA62CE3F6669EC5EC6DD05AA9F /* Search */,
+				D9701DA359A3C1A80DD3DB0A4D09970A /* Support Files */,
+				3B1FE72061C4D8569E665422887C1702 /* Utils */,
+			);
+			name = BaiduMapKit;
+			path = BaiduMapKit;
+			sourceTree = "<group>";
+		};
+		FEA8EE3B22A402AF29545393E0C0E61A /* _CodeSignature */ = {
+			isa = PBXGroup;
+			children = (
+				07A3226261EED3526799E110AC79A2DB /* CodeDirectory */,
+				E110F5A5C8660D7BAE80037E642B2558 /* CodeRequirements */,
+				EF0285DAB265144B686251FED077FB62 /* CodeRequirements-1 */,
+				DB3988C654B5E61AF319104461CF6CC5 /* CodeResources */,
+				F3E76DA02144907320A80273D5F2FA68 /* CodeSignature */,
+			);
+			name = _CodeSignature;
+			path = "GLSDK-iOS/Classes/GLSDK.framework/_CodeSignature";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EB0ABBD785A5953E8F5F936A874FE68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0643D4CA642D6E321A078E8A7B78F753 /* MASCompositeConstraint.h in Headers */,
+				20D9ABC02390926E498CDC04A9C34F8F /* MASConstraint+Private.h in Headers */,
+				5987A3901CCD261D97C7D55F81E19FD1 /* MASConstraint.h in Headers */,
+				04CCDC521938FEC42BCD6E316DD878BA /* MASConstraintMaker.h in Headers */,
+				988A74CBB329DFBBCCD5602D41DBF9FB /* MASLayoutConstraint.h in Headers */,
+				9FED7858F793CF1B42ACC3AEAEB61040 /* Masonry-umbrella.h in Headers */,
+				43B5791E412D136E4D2B5450F6A5AEC1 /* Masonry.h in Headers */,
+				77866FA8223BDA21CD1299848FB3FF1B /* MASUtilities.h in Headers */,
+				3464380DFCE373549DB30BFA6477D806 /* MASViewAttribute.h in Headers */,
+				2DB738E1151869B33A0568B63AE14E69 /* MASViewConstraint.h in Headers */,
+				D7EE6629822BD28AFF4D27145A4C1093 /* NSArray+MASAdditions.h in Headers */,
+				27C7E1F98F64BD430620832ACB8626CC /* NSArray+MASShorthandAdditions.h in Headers */,
+				8DAC075AB86C082CFD06768F0CDF4313 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				B9D837B9B99CAB5731ACA3B4BB2FC8AE /* View+MASAdditions.h in Headers */,
+				B4A5079C14D553921C4945E6666A7190 /* View+MASShorthandAdditions.h in Headers */,
+				B91F7508DBC6E3BAD49136ADECBBF227 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9820FA591066E26DE9B558086F33D752 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3926415FBCBD0DD93EB31DE87DDD1A /* GLManager.h in Headers */,
+				3A76E1B7E796C2EC238A3D470C40D97B /* GLSDK-iOS-umbrella.h in Headers */,
+				4A1FEE48DB23369793250EB5321077A7 /* GLSDK.h in Headers */,
+				59B4C6C645F34307523037A8E197A55F /* GLToastHudView.h in Headers */,
+				0DA1AD87BF7E90A928FE23852FBE52B1 /* GLWXApiManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B251FE27EDC90338F71B337AC8C420D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C65F9DC9A75B119977E5CFBDE2E2B9C /* Pods-GLSDK-iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3435FB23CA893CF219433AD7CC6773B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D68F6C777388BE5BAE81C7FA38F5A2E0 /* WebViewJavascriptBridge-umbrella.h in Headers */,
+				1A4698CE792517FEC94CBFB7AAD45F61 /* WebViewJavascriptBridge.h in Headers */,
+				EFD7DBCF33C1282E6764CA66138C2E70 /* WebViewJavascriptBridge_JS.h in Headers */,
+				BCB58B83B5EB845AE4092FAD972900CA /* WebViewJavascriptBridgeBase.h in Headers */,
+				CCB3AA28C4DD5A34A0F11BB4623E9ECD /* WKWebViewJavascriptBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF8E01994F807313AEEB2FF0F471D24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01F609E7F0321249A9B5C194ADA3E64 /* Pods-GLSDK-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEE5E3904834922023C9DBCC457E5BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721322A3D3FDE06113A492EC31BF9B81 /* Reachability-umbrella.h in Headers */,
+				F7780C10C1BDB3280608B081BFF61457 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		013FEEFCE0353C84B8F1216C7AFE285F /* Pods-GLSDK-iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F891695487BEEF589460996C0925432F /* Build configuration list for PBXNativeTarget "Pods-GLSDK-iOS_Tests" */;
+			buildPhases = (
+				B251FE27EDC90338F71B337AC8C420D6 /* Headers */,
+				E63F74D4F32545BB680CC094C2F320A5 /* Sources */,
+				80D89853553F1C1999D6A8C91CB98ADF /* Frameworks */,
+				08AF5B4DF5C5DBA7EC4EF8B7B222C8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65B5FC506CAD8F38517E061187EA104 /* PBXTargetDependency */,
+			);
+			name = "Pods-GLSDK-iOS_Tests";
+			productName = "Pods-GLSDK-iOS_Tests";
+			productReference = 6F87BBDA3B168B16BF3F71F8398A7FBE /* Pods_GLSDK_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867A64F66BF3510D698F9D0D93DCD6B2 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				2EB0ABBD785A5953E8F5F936A874FE68 /* Headers */,
+				6022F4D3CC1E40A50B159469DA3BE0BA /* Sources */,
+				826C8759DA13CC3F7FC6DEEC4DD45705 /* Frameworks */,
+				7B2ACD250483877D22EC35578A93B3C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2B07C700742A74487744E19C2BBA62B /* Pods-GLSDK-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A480E539DAF12C00A8E9353C8B615B4 /* Build configuration list for PBXNativeTarget "Pods-GLSDK-iOS_Example" */;
+			buildPhases = (
+				BBF8E01994F807313AEEB2FF0F471D24 /* Headers */,
+				6940BFB506AF78962734A7A8E437DB38 /* Sources */,
+				2D08162610D09BFE6841489594E62F12 /* Frameworks */,
+				C30188692A9951DC21BC0FC3B32287AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847C4549037E3FB743A037C930D3AF78 /* PBXTargetDependency */,
+				915635735AB937AB1738CF6F5C638FD1 /* PBXTargetDependency */,
+				C5E8EE42918FB3296F9C496DE67FB22E /* PBXTargetDependency */,
+				AF1AA97245DC10F2E412B412653AB860 /* PBXTargetDependency */,
+				99561B28C2C8D825215BF7D3026C3DC4 /* PBXTargetDependency */,
+				162B0604EAC45011A0B77C792A7CCA28 /* PBXTargetDependency */,
+				DDE7691DA65423E120FEBF061C049688 /* PBXTargetDependency */,
+				F56BB6A40C29D0BC5CA60370A11042C8 /* PBXTargetDependency */,
+				DE47D117C8241D815A36C4F4EB5441C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-GLSDK-iOS_Example";
+			productName = "Pods-GLSDK-iOS_Example";
+			productReference = 03419559281E8C238C33560DBD89ED05 /* Pods_GLSDK_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EC2F53E286EDB2CD360570263708B7 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				ECEE5E3904834922023C9DBCC457E5BD /* Headers */,
+				3238D8F4A2764626D826DAB0D4CB2B67 /* Sources */,
+				C847A4ED2EEA5F243C7DDC8C99CF28E7 /* Frameworks */,
+				BBF3FD56DD9B35271291AC4AA7D75104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D705C0EA0A0F5E747FBB4FA88DE0C31 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */;
+			buildPhases = (
+				B3435FB23CA893CF219433AD7CC6773B /* Headers */,
+				EA9D346C794048D79D1D9792561B2653 /* Sources */,
+				EB37C4717AB1405CFF593176C56E8BCA /* Frameworks */,
+				371F78CCF9851C5910E27BCBDFCC471F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewJavascriptBridge;
+			productName = WebViewJavascriptBridge;
+			productReference = 8EB68B7943515E4F13CC6BE690FFD564 /* WebViewJavascriptBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E65EF71627B38904C179ED1908049731 /* GLSDK-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A4F91EDB1B7A865D8E40F441F6EABCC /* Build configuration list for PBXNativeTarget "GLSDK-iOS" */;
+			buildPhases = (
+				9820FA591066E26DE9B558086F33D752 /* Headers */,
+				5C0C45A53D97271E1B368538402CA8BB /* Sources */,
+				0142C5955B804B191720E0B325F09899 /* Frameworks */,
+				69EC76338613613CD465CC9512B777F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82DAB8679851A5BB17A40A4F70551021 /* PBXTargetDependency */,
+				A9DDE47C54510B72CD4CCD543A10F0B6 /* PBXTargetDependency */,
+				EEEFCF979B90645A0C579735C720FC2B /* PBXTargetDependency */,
+				D890A7162A7E58E8B899C85B87B71644 /* PBXTargetDependency */,
+				2B8F0794B83B3EBD0C0DD4DDF49DB01A /* PBXTargetDependency */,
+			);
+			name = "GLSDK-iOS";
+			productName = "GLSDK-iOS";
+			productReference = 53B8E7CDA95A8A855C9AAA977BC0D9F1 /* GLSDK_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A6694C0BDFDE32899D0905090FC41EC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A98134A70001D88F2E8B45132A3E45D /* BaiduMapKit */,
+				E65EF71627B38904C179ED1908049731 /* GLSDK-iOS */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				C2B07C700742A74487744E19C2BBA62B /* Pods-GLSDK-iOS_Example */,
+				013FEEFCE0353C84B8F1216C7AFE285F /* Pods-GLSDK-iOS_Tests */,
+				CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */,
+				F1E09035B7675D89EC69B16728E2833E /* UMAPM */,
+				6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */,
+				08797F46251C64100F721EEF64AAD344 /* UMCShare */,
+				CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */,
+				D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08AF5B4DF5C5DBA7EC4EF8B7B222C8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371F78CCF9851C5910E27BCBDFCC471F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69EC76338613613CD465CC9512B777F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2ACD250483877D22EC35578A93B3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBF3FD56DD9B35271291AC4AA7D75104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30188692A9951DC21BC0FC3B32287AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3238D8F4A2764626D826DAB0D4CB2B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0427B3F4B805804961A672916933A8 /* Reachability-dummy.m in Sources */,
+				ABD6C4249D638BD7268CE69A68BD78E3 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0C45A53D97271E1B368538402CA8BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EE9BD581FBE7D87C7A886A6AFC00CA /* CodeDirectory in Sources */,
+				7081E21AA3691E3F8169126B1AD537A4 /* CodeRequirements in Sources */,
+				230B36640DE5CDDEBD87BA24742A860B /* CodeRequirements-1 in Sources */,
+				9B29E32C966AD8184B8AA5662BB3C423 /* CodeResources in Sources */,
+				23CF6C63E9BF8D21D77A7F6C324CC5F9 /* CodeSignature in Sources */,
+				E0B7615BC78F3BECD3624CFCA1FEE42A /* GLSDK in Sources */,
+				8607F46AA4FC6B7BAF8BDA75BBCA9977 /* GLSDK-iOS-dummy.m in Sources */,
+				0C156230A37497D4462470D31E523477 /* Info.plist in Sources */,
+				FF33C32289195FE982E5988CD3C81EBE /* module.modulemap in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6022F4D3CC1E40A50B159469DA3BE0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC50F4FA0A10686E31035AB0D90CB10 /* MASCompositeConstraint.m in Sources */,
+				46E80D95E504C3026DED108730123E05 /* MASConstraint.m in Sources */,
+				11EF804F9BCFBD3B76DA49CDDC39D1DF /* MASConstraintMaker.m in Sources */,
+				19A929AFD758C6E5C4AD14D6E3A17F0D /* MASLayoutConstraint.m in Sources */,
+				35B34ED7808E05697AD417A451D22B5E /* Masonry-dummy.m in Sources */,
+				43FFF8626350A4AAA5F37F2E5F142848 /* MASViewAttribute.m in Sources */,
+				2E3AD471DC40A6654A0DE1F4FF7C0CDB /* MASViewConstraint.m in Sources */,
+				769F0D2F2769BC38A93790333144DA58 /* NSArray+MASAdditions.m in Sources */,
+				A66A09D637A6113E00EBE2853DD1EFF1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				7C7A46105BCDA5BB287B9A86D3395FB4 /* View+MASAdditions.m in Sources */,
+				5FDACBCA6B964FEA05C3F19B23EC3681 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6940BFB506AF78962734A7A8E437DB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578ECAE72FD789FFB6F5FB5117511BB6 /* Pods-GLSDK-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63F74D4F32545BB680CC094C2F320A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBE6888288BD1A3FF4DA09DC5B6DD3F /* Pods-GLSDK-iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9D346C794048D79D1D9792561B2653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8BBB37DAED47126378915E7B8E2DDB /* WebViewJavascriptBridge-dummy.m in Sources */,
+				CDBF0A9616DDA701B22B8EA5C8171C29 /* WebViewJavascriptBridge.m in Sources */,
+				DCA9689AB488D80C39820AB0CD8AE775 /* WebViewJavascriptBridge_JS.m in Sources */,
+				74CF581D679A8F8DA1809E18601099A7 /* WebViewJavascriptBridgeBase.m in Sources */,
+				CBB658B8BCBB224EA4617FEC92B8FCA1 /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		162B0604EAC45011A0B77C792A7CCA28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */;
+			targetProxy = 397B35574C7B45E43E4E4C2DFF1A59C3 /* PBXContainerItemProxy */;
+		};
+		2B8F0794B83B3EBD0C0DD4DDF49DB01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebViewJavascriptBridge;
+			target = D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */;
+			targetProxy = C3266571A387A81E9AF1392FE402A7D8 /* PBXContainerItemProxy */;
+		};
+		2FD868B2CBB7193B0A7627FFBB0CEB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */;
+			targetProxy = 14DB47B0FCB330C01A1E6C738628F333 /* PBXContainerItemProxy */;
+		};
+		82DAB8679851A5BB17A40A4F70551021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaiduMapKit;
+			target = 2A98134A70001D88F2E8B45132A3E45D /* BaiduMapKit */;
+			targetProxy = 6865F44731EB16D7DDBBF463AC7A8836 /* PBXContainerItemProxy */;
+		};
+		847C4549037E3FB743A037C930D3AF78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaiduMapKit;
+			target = 2A98134A70001D88F2E8B45132A3E45D /* BaiduMapKit */;
+			targetProxy = 385D9C21E4064E14A40ADBAC83A7B127 /* PBXContainerItemProxy */;
+		};
+		915635735AB937AB1738CF6F5C638FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GLSDK-iOS";
+			target = E65EF71627B38904C179ED1908049731 /* GLSDK-iOS */;
+			targetProxy = 456D0ABC16B5FEEC10024D790B8C29E5 /* PBXContainerItemProxy */;
+		};
+		99561B28C2C8D825215BF7D3026C3DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMAPM;
+			target = F1E09035B7675D89EC69B16728E2833E /* UMAPM */;
+			targetProxy = 1C4B636F6114FF4F63233E26F048091A /* PBXContainerItemProxy */;
+		};
+		A5610FC7F425D5617CD0BA030F4DCA4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMDevice;
+			target = CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */;
+			targetProxy = 6A9B70F0D1F7BE3B3BE36A15A2B0CC0A /* PBXContainerItemProxy */;
+		};
+		A65B5FC506CAD8F38517E061187EA104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GLSDK-iOS_Example";
+			target = C2B07C700742A74487744E19C2BBA62B /* Pods-GLSDK-iOS_Example */;
+			targetProxy = BF9F1A46E2D3C3040622F34830000A55 /* PBXContainerItemProxy */;
+		};
+		A9DDE47C54510B72CD4CCD543A10F0B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = F444A5734AD0ACD5D7461B872B92B1CC /* PBXContainerItemProxy */;
+		};
+		AF1AA97245DC10F2E412B412653AB860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */;
+			targetProxy = F4EB18ED2D0CEBB850A43F7A1405F64E /* PBXContainerItemProxy */;
+		};
+		C5E8EE42918FB3296F9C496DE67FB22E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = BE820CCA757250FFCE2E9FDA811BE7E6 /* PBXContainerItemProxy */;
+		};
+		CB00877B798A43C42A6B8518BC9E4CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMAPM;
+			target = F1E09035B7675D89EC69B16728E2833E /* UMAPM */;
+			targetProxy = 01D0C0EE609FC2076232C418E316CD9C /* PBXContainerItemProxy */;
+		};
+		D890A7162A7E58E8B899C85B87B71644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCShare;
+			target = 08797F46251C64100F721EEF64AAD344 /* UMCShare */;
+			targetProxy = 30636EEAA737A7B5EE028C511614EEF6 /* PBXContainerItemProxy */;
+		};
+		DDE7691DA65423E120FEBF061C049688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCShare;
+			target = 08797F46251C64100F721EEF64AAD344 /* UMCShare */;
+			targetProxy = 19DDDF303DF714A0153B4D35B014CFDE /* PBXContainerItemProxy */;
+		};
+		DE47D117C8241D815A36C4F4EB5441C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebViewJavascriptBridge;
+			target = D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */;
+			targetProxy = B23B37BDDA8BB81F19B6DB4CD40D2C6A /* PBXContainerItemProxy */;
+		};
+		EEEFCF979B90645A0C579735C720FC2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */;
+			targetProxy = A729542B10E7ACAE40A14121A000AF26 /* PBXContainerItemProxy */;
+		};
+		F56BB6A40C29D0BC5CA60370A11042C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMDevice;
+			target = CEB9AD2C3CFC208BFBE1F22F5EC3E1FC /* UMDevice */;
+			targetProxy = 2A60F45418556AA024031C90E8EA00F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19424DB30349FBCF3FE57E8C9A20B647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3682D3B9D7AC19C6DFA447CC3480A4E /* UMAPM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E33D41E333696DD1E71EE8C1955A88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EAE54D640DDB1D03CB47852A8315C7 /* WebViewJavascriptBridge.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge.modulemap";
+				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FB68DB17F45BD3978F31B6E54C697E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB5023FE8858A9B2330C1C9A81C98CD /* UMCCommon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A41D8DA5211014A1062CB89F85D7457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C962883165BFB07F4B9A0193E18412 /* UMCShare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E23C17FC0DA3487F093CC9F8544120D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0C3E86E603EB5874572F4D2A4D3476 /* UMAPM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42513F622578A7B754CC25EBBCAA0360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617394BF970DCA421819C8861C63CB0B /* UMCShare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F189266D2301ABA3906320543032A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23D0495A5A6F880383B07F2E3EC45CE /* GLSDK-iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GLSDK-iOS/GLSDK-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLSDK-iOS/GLSDK-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/GLSDK-iOS/GLSDK-iOS.modulemap";
+				PRODUCT_MODULE_NAME = GLSDK_iOS;
+				PRODUCT_NAME = GLSDK_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		512E00C4812964C9086C8EEFE9F2766E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EC01695FBA17E587EA644D72628980 /* Pods-GLSDK-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLSDK-iOS_Example/Pods-GLSDK-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLSDK-iOS_Example/Pods-GLSDK-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5573F127BB85C6E4BD08EF9970CFF6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68AD2C9BFF81BC7BB4BD142C8F039CD4 /* Reachability.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Reachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ED288C51AEFAC333BD63F9B18556204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBB14A428D8DA55432B2AB74E2125FD /* WebViewJavascriptBridge.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge.modulemap";
+				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		750125308CDF0C622669F1A9A05FF5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A0B7588D3FD79CE50069CFB1EF8D37 /* UMCCommon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7573B4377D554AAB3D65B0BFD9CEECE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCEE4FB6A27E1CE5D710237420ACC62 /* Masonry.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9894227811302A53CC0BAD4909810031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB91FEFCAD47BEEAE166C5C0B5329476 /* Pods-GLSDK-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLSDK-iOS_Tests/Pods-GLSDK-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLSDK-iOS_Tests/Pods-GLSDK-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A15A28B28F7F31B679E63F8CA362675F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F3F6EBBFF1C813E4614337DA67B923 /* Pods-GLSDK-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLSDK-iOS_Tests/Pods-GLSDK-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLSDK-iOS_Tests/Pods-GLSDK-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2055EE9DDA8E787D2715D1DAF6A2DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E243DFF1E50EC78ABFE0DDB6C6F88E56 /* Pods-GLSDK-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GLSDK-iOS_Example/Pods-GLSDK-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GLSDK-iOS_Example/Pods-GLSDK-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFA855E8A340C0F2FEEFEA5BE40268A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F17BF8903204F2CB82E97DF1F5DD86 /* UMDevice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D99858B239A28531647D7F671B2905A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6646A02F0F84A7CB2BA483F6C56FE525 /* Reachability.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Reachability-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E397CE82C23C66E311628589CCEA382A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA595EF5FD1F1F52006437271D243AF /* UMDevice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E82F2973F3853FF220F40C862C5E408F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF6CFA2196B663DDE103BF336D4A514 /* GLSDK-iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GLSDK-iOS/GLSDK-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLSDK-iOS/GLSDK-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/GLSDK-iOS/GLSDK-iOS.modulemap";
+				PRODUCT_MODULE_NAME = GLSDK_iOS;
+				PRODUCT_NAME = GLSDK_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F248C315FFD64489BAC02BA7F3F8AC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB3BBDD43AE20B1C66574E6D99A8D13 /* Masonry.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2A351D9ED31F9CC31039A57A6B05E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1108E23FA56D6D7FC9317CC493FFBE /* BaiduMapKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FECC896AE77C9ADC55C8F6486B607DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 113A7D824D7FB206FA677199B4943A2C /* BaiduMapKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A480E539DAF12C00A8E9353C8B615B4 /* Build configuration list for PBXNativeTarget "Pods-GLSDK-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512E00C4812964C9086C8EEFE9F2766E /* Debug */,
+				A2055EE9DDA8E787D2715D1DAF6A2DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A4F91EDB1B7A865D8E40F441F6EABCC /* Build configuration list for PBXNativeTarget "GLSDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F189266D2301ABA3906320543032A34 /* Debug */,
+				E82F2973F3853FF220F40C862C5E408F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30141D78B6ED066BFF9DDC0ED966B442 /* Build configuration list for PBXAggregateTarget "UMCShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42513F622578A7B754CC25EBBCAA0360 /* Debug */,
+				3A41D8DA5211014A1062CB89F85D7457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		393E29D0AD522EB43DE908BDEA0495DA /* Build configuration list for PBXAggregateTarget "UMCCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750125308CDF0C622669F1A9A05FF5DF /* Debug */,
+				2FB68DB17F45BD3978F31B6E54C697E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5577AA72BAC6F7DE95AF6FF653D2388C /* Build configuration list for PBXAggregateTarget "BaiduMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECC896AE77C9ADC55C8F6486B607DAC /* Debug */,
+				F2A351D9ED31F9CC31039A57A6B05E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865D13DB6773D75A2DA6CCC11CA86C22 /* Build configuration list for PBXAggregateTarget "UMDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA855E8A340C0F2FEEFEA5BE40268A5 /* Debug */,
+				E397CE82C23C66E311628589CCEA382A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867A64F66BF3510D698F9D0D93DCD6B2 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F248C315FFD64489BAC02BA7F3F8AC3D /* Debug */,
+				7573B4377D554AAB3D65B0BFD9CEECE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D705C0EA0A0F5E747FBB4FA88DE0C31 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED288C51AEFAC333BD63F9B18556204 /* Debug */,
+				2E33D41E333696DD1E71EE8C1955A88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EC2F53E286EDB2CD360570263708B7 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99858B239A28531647D7F671B2905A3 /* Debug */,
+				5573F127BB85C6E4BD08EF9970CFF6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F891695487BEEF589460996C0925432F /* Build configuration list for PBXNativeTarget "Pods-GLSDK-iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15A28B28F7F31B679E63F8CA362675F /* Debug */,
+				9894227811302A53CC0BAD4909810031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE14844FCEB5A6DDB8D3BB3BC55FEE08 /* Build configuration list for PBXAggregateTarget "UMAPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19424DB30349FBCF3FE57E8C9A20B647 /* Debug */,
+				3E23C17FC0DA3487F093CC9F8544120D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

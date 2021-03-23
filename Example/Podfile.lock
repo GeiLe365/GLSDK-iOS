@@ -1,0 +1,88 @@
+PODS:
+  - BaiduMapKit (6.2.0):
+    - BaiduMapKit/Base (= 6.2.0)
+    - BaiduMapKit/Cloud (= 6.2.0)
+    - BaiduMapKit/Map (= 6.2.0)
+    - BaiduMapKit/Search (= 6.2.0)
+    - BaiduMapKit/Utils (= 6.2.0)
+  - BaiduMapKit/Base (6.2.0)
+  - BaiduMapKit/Cloud (6.2.0):
+    - BaiduMapKit/Base
+  - BaiduMapKit/Map (6.2.0):
+    - BaiduMapKit/Base
+  - BaiduMapKit/Search (6.2.0):
+    - BaiduMapKit/Base
+  - BaiduMapKit/Utils (6.2.0):
+    - BaiduMapKit/Base
+  - GLSDK-iOS (1.0):
+    - BaiduMapKit
+    - Masonry
+    - Reachability
+    - UMCShare/Social/QQ
+    - UMCShare/Social/SMS
+    - UMCShare/Social/WeChat
+    - UMCShare/UI
+    - WebViewJavascriptBridge
+  - Masonry (1.1.0)
+  - Reachability (3.2)
+  - UMAPM (1.1.1)
+  - UMCCommon (7.2.5):
+    - UMAPM
+    - UMDevice
+  - UMCShare/Core (6.10.2):
+    - UMCCommon
+  - UMCShare/Social/QQ (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/ReducedQQ (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/SMS (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/WeChat (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedWeChat
+  - UMCShare/UI (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+  - UMDevice (1.1.0)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - GLSDK-iOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - BaiduMapKit
+    - Masonry
+    - Reachability
+    - UMAPM
+    - UMCCommon
+    - UMCShare
+    - UMDevice
+    - WebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  GLSDK-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BaiduMapKit: 907c6d9b74f66c3ff4741fc4b568ae0b339917f8
+  GLSDK-iOS: f293d86762834d6c931f400257d107f541113696
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  UMAPM: d0623e0b3ca8b1a1df855e0bddb91b5c002d097d
+  UMCCommon: f7480d316381612f90cdde3a3c0f39a7e2c0a788
+  UMCShare: e14e1399673fa361cddbde3a05b3743e10f673f7
+  UMDevice: 28d21a568c8e8322e5a03bbd53b138d0c098d3b3
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 4759ac4f82af2d94e2309e59c7ef9435220bd862
+
+COCOAPODS: 1.9.3
